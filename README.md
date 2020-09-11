@@ -13,27 +13,27 @@ In the 9th episode of our unofficial SAP on Azure video podcast we talk about Au
 #MadeInWalldorf
 
 ### Video Indexes
-1:05 - Automatic VM Guest patching for Windows VMs on Azure
-2:25 - OpenSAP Course - Introduction to SAP Cloud Platform Extension Suite
-4:18 - Monitoring SAP end to end on Azure
-8:31 - Making the Software Industry a Little more Inclusive
-10:20 - Microsoft Ignite
-11:30 - Microsoft Thementag 2020
-13:25 - Etienne Dittrich: Quantifying your Region Choice
-17:56 - What are Azure regions?
-18:57 - Region Considerations
-20:01 - Regions - Connectivity
-20:30 - SAP certified Building Blocks
-23:12 - Guiding Principals - User to System Latency
-24:21 - Front-end Network Requirements
-25:40 - Factors for global network strategy
-26:26 - Available technologies
-33:37 - Choosing your Azure region
-34:56 - Region Scope
-36:19 - User Density
-36:45 - Azure interregion latency
-39:06 - Putting everything together
-47:17 - Closing in German :-)
+* 1:05 - Automatic VM Guest patching for Windows VMs on Azure
+* 2:25 - OpenSAP Course - Introduction to SAP Cloud Platform Extension Suite
+* 4:18 - Monitoring SAP end to end on Azure
+* 8:31 - Making the Software Industry a Little more Inclusive
+* 10:20 - Microsoft Ignite
+* 11:30 - Microsoft Thementag 2020
+* 13:25 - Etienne Dittrich: Quantifying your Region Choice
+* 17:56 - What are Azure regions?
+* 18:57 - Region Considerations
+* 20:01 - Regions - Connectivity
+* 20:30 - SAP certified Building Blocks
+* 23:12 - Guiding Principals - User to System Latency
+* 24:21 - Front-end Network Requirements
+* 25:40 - Factors for global network strategy
+* 26:26 - Available technologies
+* 33:37 - Choosing your Azure region
+* 34:56 - Region Scope
+* 36:19 - User Density
+* 36:45 - Azure interregion latency
+* 39:06 - Putting everything together
+* 47:17 - Closing in German :-)
 
 ### Links
 
