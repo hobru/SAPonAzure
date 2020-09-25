@@ -5,7 +5,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 
 ----
 ----
-## [Episode #10 - The One with the First Integration Demo (Martin Pankraz)](https://www.youtube.com/watch?v=yarrxqyzn5E)
+## [Episode #10 - The One with the First Integration Demo (Martin Pankraz)](https://youtu.be/Nha5uwE6K9Q)
 - September 25th 2020
 - [Podcast](https://anchor.fm/saponazure)
 
