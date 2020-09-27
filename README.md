@@ -7,7 +7,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 ----
 ## [Episode #10 - The One with the First Integration Demo (Martin Pankraz)](https://youtu.be/Nha5uwE6K9Q)
 - September 25th 2020
-- [Podcast](https://anchor.fm/saponazure)
+- [Podcast](https://anchor.fm/saponazure/episodes/Episode-10---The-One-with-the-First-Integration-Demo-ek6okg)
 
 In the 10th episode of our unofficial SAP on Azure video podcast we talk about Microsoft Ignite and lots of interesting news from the Book of News. We have Martin Pankraz as a our special guest talking about a SCP Business Rules put to the test with Microsoft Power Platform. 
 #MadeInWalldorf
@@ -58,7 +58,7 @@ Special Guest: Martin Pankraz - Integrating Power Apps, Power Automte, SAP Cloud
 
 ## [Episode #9 - The One with the Global Deployments (Etienne Dittrich)](https://www.youtube.com/watch?v=yarrxqyzn5E)
 - September 11th 2020
-- [Podcast](https://anchor.fm/saponazure)
+- [Podcast](https://anchor.fm/saponazure/episodes/Episode-9---The-One-with-the-Global-Deployments-Etienne-Dittrich-ejfk9j/a-a36eb7j)
 
 In the 9th episode of our unofficial SAP on Azure video podcast we talk about Automatic Guest OS Patching, new openSAP Coures, SAP monitoring on Azure, Making the Software Industry a little more inclusive, Ignite Session catalog, the online Konferenz. We have Etienne Dittrich as a our special guest talking about Global Deployment. 
 #MadeInWalldorf
