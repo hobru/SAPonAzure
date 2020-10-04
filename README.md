@@ -5,7 +5,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 
 ----
 ----
-## [Episode #11 - The One with Azrue Active Directory and SAP SuccessFactors (Chetan Desai)](https://youtu.be/Czi2Ai-6lyc)
+## [Episode #11 - The One with Azure Active Directory and SAP SuccessFactors (Chetan Desai)](https://youtu.be/Czi2Ai-6lyc)
 - October 1th 2020
 - [Podcast](https://anchor.fm/dashboard/episode/ekg7ot)
 
