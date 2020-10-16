@@ -1,13 +1,51 @@
 # SAP on Azure
-Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.com/c/SAPonAzure
+Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.com/SAPonAzure
 
 Audio-Podcast available via https://anchor.fm/saponazure 
 
 ----
 ----
+## [Episode #13 - The One with Even more Integration (Bartosz Jarkowski)](https://youtu.be/byXiec0DMC0)
+- October 16th 2020
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-13---The-One-with-Even-more-Integration-Bartosz-Jarkowski-el5prt)
+
+In the 13th episode of our unofficial SAP on Azure video podcast we talk about DSAGLive, SAP TechEd 2020, S/4HANA 2020 on CAL and have Bartosz Jarkowski as our special guest showing some great integration demos.
+#MadeInWalldorf
+
+### Video Indexes
+* 0:00 Intro
+* 0:45 SCP Trial on Azure available
+* 2:05 DSAGLive Pressrelease
+* 10:05 SAP TechEd 2020 
+* 13:12 S/4Hana 2020 on CAL
+* 14:55 Introducing Bartosz Jarkowski
+* 23:18 First Demo - B2B integration Sending an IDOC
+* 26:00 Logic Apps Receicing the information
+* 34:25 Second Demo - Dynamics 365 Business Central & SAP
+* 38:54 Logic App to send information to SAP
+* 41:52 Third Demo - Azure API Management
+* 51:00 Fourth Demo - Fetching Tweets and using cogntive services 
+* 52:50 Wrapping Up
+
+### Links
+* [Pushing back against coronavirus with digitalization](https://www.dsag.de/pressemitteilungen/pushing-back-against-coronavirus-digitalization)
+* [Deutschsprachige SAP-Anwendergruppe e.V. on YouTube](https://www.youtube.com/c/dsagev)
+* [SAP TechEd in 2020: 48 Hours of Non-Stop Learning](https://news.sap.com/2020/10/sap-teched-in-2020-non-stop-learning/)
+* [SAP S/4HANA 2020 on SAP Cloud Appliance Library](https://cal.sap.com/catalog#/solutions/c46562da-6249-4c84-a5a3-8ec2ae457250)
+* [Your SAP on Azure Blogs From Bartosz Jarkowski](https://people.sap.com/bartosz.jarkowski4#content:blogposts)
+* [Your SAP on Azure – Part 1 – ARM Templates](https://blogs.sap.com/2017/08/30/your-sap-on-azure-part-1-arm-templates/)
+* [Your SAP on Azure – Part 24 – Simplified high availability in the cloud!](https://blogs.sap.com/2020/03/10/your-sap-on-azure-part-24-simplified-high-availability-in-the-cloud/)
+
+
+
+
+
+
+
+---
 ## [Episode #12 - The One with Demos around Ignite ](https://youtu.be/4aniyKA8GLM)
 - October 9th 2020
-- [Podcast](https://anchor.fm/dashboard/episode/ekse81)
+- [Audio Podcast on Anchor](https://anchor.fm/dashboard/episode/ekse81)
 
 In the 12th episode of our unofficial SAP on Azure video podcast we talk about SAP Cloud Platform, Kyma on SCP Trial, CAP on Kyma, Hana Express on WSL2, Windows Terminal, Value of SCP, SAP IQ-NLS HA using Azure NetApp, Azure Hybrid Benefits for Linux, Cross Region Load Balancer, Azure Resouce Mover, Zonal Disaster Recovery, Logic Apps Preview & support of Generation 2 VMs -- with a few demos!
 #MadeInWalldorf
@@ -24,6 +62,7 @@ In the 12th episode of our unofficial SAP on Azure video podcast we talk about S
 * 17:45 - Cross Region Azure Loadbalancer
 * 20:03 - Azure Resource Mover
 * 25:30 - Disaster Recovery
+* 27:25 - Backup Center 
 * 29:44 - Logic Apps local runtime (Preview)
 * 35:20 - Generation 2 VMs
 * 37:50 - Dual Protocol (SMB & NFS) for Azure NetApp Files
@@ -46,7 +85,7 @@ In the 12th episode of our unofficial SAP on Azure video podcast we talk about S
 
 ## [Episode #11 - The One with Azure Active Directory and SAP SuccessFactors (Chetan Desai)](https://youtu.be/Czi2Ai-6lyc)
 - October 1th 2020
-- [Podcast](https://anchor.fm/dashboard/episode/ekg7ot)
+- [Audio Podcast on Anchor](https://anchor.fm/dashboard/episode/ekg7ot)
 
 In the 11th episode of our unofficial SAP on Azure video podcast we talk about Microsoft Ignite, a new Blog about Principal Propagation and the new Microsoft Digital Defense Report. We have Chetan Desai as a our special guest talking about the integration of Azure Active Directory and SAP SuccessFactors 
 #MadeInWalldorf
@@ -88,7 +127,7 @@ In the 11th episode of our unofficial SAP on Azure video podcast we talk about M
 
 ## [Episode #10 - The One with the First Integration Demo (Martin Pankraz)](https://youtu.be/Nha5uwE6K9Q)
 - September 25th 2020
-- [Podcast](https://anchor.fm/saponazure/episodes/Episode-10---The-One-with-the-First-Integration-Demo-ek6okg)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-10---The-One-with-the-First-Integration-Demo-ek6okg)
 
 In the 10th episode of our unofficial SAP on Azure video podcast we talk about Microsoft Ignite and lots of interesting news from the Book of News. We have Martin Pankraz as a our special guest talking about a SCP Business Rules put to the test with Microsoft Power Platform. 
 #MadeInWalldorf
@@ -139,7 +178,7 @@ Special Guest: Martin Pankraz - Integrating Power Apps, Power Automte, SAP Cloud
 
 ## [Episode #9 - The One with the Global Deployments (Etienne Dittrich)](https://www.youtube.com/watch?v=yarrxqyzn5E)
 - September 11th 2020
-- [Podcast](https://anchor.fm/saponazure/episodes/Episode-9---The-One-with-the-Global-Deployments-Etienne-Dittrich-ejfk9j/a-a36eb7j)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-9---The-One-with-the-Global-Deployments-Etienne-Dittrich-ejfk9j/a-a36eb7j)
 
 In the 9th episode of our unofficial SAP on Azure video podcast we talk about Automatic Guest OS Patching, new openSAP Coures, SAP monitoring on Azure, Making the Software Industry a little more inclusive, Ignite Session catalog, the online Konferenz. We have Etienne Dittrich as a our special guest talking about Global Deployment. 
 #MadeInWalldorf
@@ -188,7 +227,7 @@ Special Guest: Etienne - Global Deployments
 
 ## [Episode #8 - The One with the Azure Shared Disks (Goran Condric)](https://www.youtube.com/watch?v=emR1hn0p0q4)
 - September 4th 2020
-- [Podcast](https://anchor.fm/saponazure/episodes/Episode-8---The-One-with-the-Azure-Shared-Disks-Goran-Condric-ejac07)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-8---The-One-with-the-Azure-Shared-Disks-Goran-Condric-ejac07)
 
 In the 8th episode of our unofficial SAP on Azure video podcast we talk about Microsoft Ignite, the upcoming Business Uninterrupted Virtual Event for SAP Solutions on Microsoft Azure and a new podcast by Christian Lechner. Special guest (and host) is Goran Condric talking about Azure Shared Disks.
 #MadeInWalldorf
@@ -220,7 +259,7 @@ In the 8th episode of our unofficial SAP on Azure video podcast we talk about Mi
 
 ## [Episode #7 - The One with the PPGs (Robert Boban)](https://www.youtube.com/watch?v=E6GIS_2YM3k)
 - August 27th 2020
-- [Podcast](https://anchor.fm/saponazure/episodes/Episode-7---The-One-with-the-PPGs-Robert-Boban-ejabqg)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-7---The-One-with-the-PPGs-Robert-Boban-ejabqg)
 
 In the 7th episode of our unofficial SAP on Azure video podcast we talk about SAPs Devtoberfest, a new Developer learning event using Power Platform Platform and Azure Shared Disks in Windows Failover Clusters. Special guest (and host) is Robert Boban talking about Azure Proximity Placement Groups (PPGs).
 #MadeInWalldorf
@@ -237,7 +276,7 @@ In the 6th episode of our unofficial SAP on Azure video podcast (longer than usu
 
 ## [Episode #5 - The One with Availability Zones (Philipp Leitenbauer)](https://www.youtube.com/watch?v=iS-wh9aHSJU)
 - August 13th 2020
-- [Podcast](https://anchor.fm/saponazure/episodes/Episode-5---The-One-with-Availability-Zones-Philipp-Leitenbauer-ejab8o)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-5---The-One-with-Availability-Zones-Philipp-Leitenbauer-ejab8o)
 
 In the 5th episode of our unofficial SAP on Azure video podcast we talk about SAP Cloud Platform Trial, SAP TechEd, Azure Cloud Shell, AAD and local temp drives. Special guest this time is Philipp Leitenbauer who will talk about Availability Zones and useful scripts on GitHub
 
@@ -245,7 +284,7 @@ In the 5th episode of our unofficial SAP on Azure video podcast we talk about SA
 
 ## [Episode #4 - The One with the first special guest: Ravi](https://www.youtube.com/watch?v=im5dAfuaAEk)
 - August 6th 2020
-- [Podcast](https://anchor.fm/saponazure/episodes/Episode-4---The-One-with-the-first-special-guest-Ravi-ejaauq)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-4---The-One-with-the-first-special-guest-Ravi-ejaauq)
 
 In the fourth episode of our new unofficial SAP on Azure video podcast we talk about SAP Community Calls with Thomas Saueressig, an Integration Roadmap Update from Christian Klein, Hands-On Labs to connect SAP Graph, Microsoft Graph and Teams, Azure Active Directory and SAP SuccessFactors integration, Ignite and close with High Availability for SAP NetWeaver. Today we also have a special guest, Ravi Alwani who will talk about using Azure NetApp Files in HA setups.
 
@@ -253,7 +292,7 @@ In the fourth episode of our new unofficial SAP on Azure video podcast we talk a
 
 ## [Episode #3 - The One with Windows Server 2019 and more](https://www.youtube.com/watch?v=dgl1Evl-Q8w)
 - July 30th 2020
-- [Podcast](https://anchor.fm/saponazure/episodes/Episode-3---The-One-with-Windows-Server-2019-and-more-ejaalk)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-3---The-One-with-Windows-Server-2019-and-more-ejaalk)
 
 In the third episode of our new unofficial SAP on Azure video podcast we talk about high availability, Azure Cloud Shell, SAP Discovery Center and close with a quick overview of Azure Network topology. 
 
@@ -261,7 +300,7 @@ In the third episode of our new unofficial SAP on Azure video podcast we talk ab
 
 ## [Episode #2 - The Pne with Inspire - not Ignite](https://www.youtube.com/watch?v=sbr2j5tmCx8)
 - July 23th 2020
-- [Podcast](https://anchor.fm/saponazure/episodes/Episode-2---The-with-Inspire---not-Ignite-ejaahu)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-2---The-with-Inspire---not-Ignite-ejaahu)
 
 In the second episode of our new unofficial SAP on Azure video podcast we talk about Inspire (not Ignite :-)), the first and latest ASUG and DSAG Survey and an SAP on Azure General Update in our Running SAP Applications on the Microsoft Platform blog!
 
@@ -269,7 +308,7 @@ In the second episode of our new unofficial SAP on Azure video podcast we talk a
 
 ## [Episode #1 - The First One](https://www.youtube.com/watch?v=rO4UdhCMkpQ)
 - July 16th 2020
-- [Podcast](https://anchor.fm/saponazure/episodes/Episode-1---The-First-One-ejaa9n)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-1---The-First-One-ejaa9n)
 
 We are trying out something new. In regular updates we want to provide an overview of what's new in the SAP on Azure ecosystem. 
 In this very first episode we talk about new VM sizes for SAP on Azure, learn about new storage features and shared disks, Azure Monitor for SAP Hana and quickly look at principal propagation from Microsoft Azure to the SAP Cloud Platform. 
