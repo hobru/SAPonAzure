@@ -52,7 +52,7 @@ In the 14th episode of our unofficial SAP on Azure video podcast we talk about C
 * [RPA Playbook for SAP GUI Automation with Power Automate: API flows, UI flows, and Power Automate Desktop](https://flow.microsoft.com/en-us/blog/rpa-playbook-for-sap-gui-automation-with-power-automate-api-flows-ui-flows-and-power-automate-desktop/)
 * [SAP BusinessObjects BI platform planning and implementation guide on Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/businessobjects-deployment-guide)
 * [Listening to our customers’ feedback and acting upon](https://www.linkedin.com/pulse/listening-our-customers-feedback-acting-upon-thomas-saueressig)
-* [Microsoft announces plans to establish its first cloud region in Austria to accelerate local innovation and growth](https://news.microsoft.com/europe/2020/10/20/microsoft-announces-plans-to-establish-its-first-cloud-region-in-austria-to-accelerate-local-innovation-and-growth/)
+* [Microsoft announces  plans to establish its first cloud region in Austria to accelerate local innovation and growth](https://news.microsoft.com/europe/2020/10/20/microsoft-announces-plans-to-establish-its-first-cloud-region-in-austria-to-accelerate-local-innovation-and-growth/)
 
 
 ---
