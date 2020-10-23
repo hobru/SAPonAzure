@@ -7,7 +7,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 ----
 ## [Episode #14 - The One with Azure NetApp Files (Ralf Klahr)](https://youtu.be/zPALOig4CRM)
 - October 22nd 2020
-- [Audio Podcast on Anchor](https://anchor.fm/)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-14---The-One-with-Azure-NetApp-Files-Ralf-Klahr-elg98s)
 
 In the 14th episode of our unofficial SAP on Azure video podcast we talk about Cross Region Restore, RPA Playbook for SAP GUI Automation with Power Automate, SAP BusinessObjects BI platform on Azure, DSAGLive Blog by Thomas Saueressig, Microsoft plans for Azure region in Austria and Azure NetApp Files with Ralf Klahr.
 #MadeInWalldorf
