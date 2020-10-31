@@ -47,6 +47,8 @@ In the 15th episode of our unofficial SAP on Azure video podcast we talk about e
 * [Collecting and displaying niping network latency measurements with Azure Monitor](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/collecting-and-displaying-niping-network-latency-measurements/ba-p/1833979)
 * [Global Microsoft 365 Developer Bootcamps](https://developer.microsoft.com/en-us/microsoft-365/bootcamps)
 
+### Slide from the session
+* [Azure NetApp Files - Part 2 - Backup](Presentations/ANF_Training_Part_II.pdf)
 
 ---
 ## [Episode #14 - The One with Azure NetApp Files (Ralf Klahr)](https://youtu.be/zPALOig4CRM)
@@ -98,6 +100,8 @@ In the 14th episode of our unofficial SAP on Azure video podcast we talk about C
 * [Listening to our customers’ feedback and acting upon](https://www.linkedin.com/pulse/listening-our-customers-feedback-acting-upon-thomas-saueressig)
 * [Microsoft announces  plans to establish its first cloud region in Austria to accelerate local innovation and growth](https://news.microsoft.com/europe/2020/10/20/microsoft-announces-plans-to-establish-its-first-cloud-region-in-austria-to-accelerate-local-innovation-and-growth/)
 
+### Slide from the session
+* [Azure NetApp Files - Part 1 - Overview](Presentations/ANF_Training_Part_I.pdf)
 
 ---
 ## [Episode #13 - The One with Even more Integration (Bartosz Jarkowski)](https://youtu.be/byXiec0DMC0)
