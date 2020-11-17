@@ -31,7 +31,7 @@ In the 17th episode of our unofficial SAP on Azure video podcast we talk about S
 * [Cost Management Dashboard](https://github.com/Azure/SAP-on-Azure-Scripts-and-Utilities/tree/master/Costmanagement-Dashboard)
 
 ### Slides from the session
-* [Azure Cost Management Dashboard](Presentations/2020-11-13-Cost Management Dashboard.pdf)
+* [Azure Cost Management Dashboard](Presentations/2020-11-13-Cost\ Management\ Dashboard.pdf)
 
 
 ---
