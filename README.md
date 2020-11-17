@@ -30,6 +30,9 @@ In the 17th episode of our unofficial SAP on Azure video podcast we talk about S
 * [https://github.com/Azure/SAP-on-Azure-Scripts-and-Utilities](http://aka.ms/saponazurescripts)
 * [Cost Management Dashboard](https://github.com/Azure/SAP-on-Azure-Scripts-and-Utilities/tree/master/Costmanagement-Dashboard)
 
+### Slides from the session
+* [Azure Cost Management Dashboard](Presentations/2020-11-13-Cost Management Dashboard.pdf)
+
 
 ---
 ## [Episode #16 - The One with Azure NetApp Files - Recovery & Cloning (Ralf Klahr)](https://youtu.be/oL0ICzfJAfk)
