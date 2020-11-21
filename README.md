@@ -5,7 +5,45 @@ Audio-Podcast available via https://anchor.fm/saponazure
 
 ----
 ----
-## [Episode #17 - The One with the Azure Cost Mangement Dashboard (Philipp Leitenbauer)](https://youtu.be/oE5aCWgUJWY)
+## [Episode #18 - The One with the Azure Cloud Adoption Framework (Niels Ophey)](https://youtu.be/BLnHfIK9wVw)
+- November 20th 2020
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-18---The-One-with-the-Azure-Cloud-Adoption-Framework-Niels-Ophey-emolmn)
+
+In the 18th episode of our unofficial SAP on Azure video podcast we talk about ASUG’s Conversation with SAP CEO Christian Klein, New SAP HANA Certified Memory-Optimized Virtual Machines, How to choose correct Availability Zones for SAP Application cross-zone deployment, Azure Backup for SAP HANA databases supporting Incremental backups, New Steps to "Defend Your Data" and with Niels Ophey about Microsoft Cloud Adoption Framework for Azure. 
+
+### Video Indexes
+* 0:00 Intro
+* 0:49 ASUS Discussion with Christian Klein
+* 2:07 New SAP HANA Certified VMs
+* 4:05 Choose correct Availability Zone
+* 4:59 Azure Backup for SAP HANA
+* 7:09 New Steps to Defend Your Data
+* 10:44 Niels Ophey - Cloud Adoption Framework
+* 15:35 Cloud Adoption Framework guidance
+* 20:06 What's new
+* 20:24 Ready - Landing Zones
+* 22:26 Well architected landing zone
+* 29:17 Best practices
+* 31:18 Example Migration
+* 43:40 CAF on Channel 9
+
+
+
+### Links
+* [5 Takeaways from ASUG’s Conversation with SAP CEO Christian Klein](https://www.asug.com/insights/5-takeaways-from-asugs-conversation-with-sap-ceo-christian-klein)
+* [New SAP HANA Certified Memory-Optimized Virtual Machines now available](https://azure.microsoft.com/en-us/updates/new-sap-hana-certified-memoryoptimized-virtual-machines-now-available/)
+* [SAP Certified and Supported SAP HANA hardware directory](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/#/solutions?filters=v:deCertified;iaas;ve:24)
+* [How to choose correct Availability Zones for SAP Application cross-zone deployment](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/how-to-choose-correct-availability-zones-for-sap-application/ba-p/1886431)
+* [Azure Backup for SAP HANA databases now supports Incremental backups – Public preview](https://azure.microsoft.com/en-us/updates/azure-backup-for-sap-hana-databases-now-supports-incremental-backups-public-preview/)
+* [New Steps to Defend Your Data](https://blogs.microsoft.com/on-the-issues/2020/11/19/defending-your-data-edpb-gdpr/)
+* [Microsoft Assessments](https://docs.microsoft.com/en-us/assessments/)
+* [MMicrosoft Cloud Adoption Framework for Azure](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/)
+* [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/)
+* [Overview of Cloud Adoption Framework for Azure](https://channel9.msdn.com/Shows/Azure-Enablement/Overview-of-Cloud-Adoption-Framework-for-Azure--Introduction-Ep1-Cloud-Adoption-Framework)
+
+
+---
+## [Episode #17 - The One with the Azure Cost Management Dashboard (Philipp Leitenbauer)](https://youtu.be/oE5aCWgUJWY)
 - November 13th 2020
 - [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-17---The-One-with-Azure-Cost-Mangement-Dashboard-Philipp-Leitenbauer-eme9pi)
 
@@ -460,7 +498,7 @@ In the third episode of our new unofficial SAP on Azure video podcast we talk ab
 
 ---
 
-## [Episode #2 - The Pne with Inspire - not Ignite](https://www.youtube.com/watch?v=sbr2j5tmCx8)
+## [Episode #2 - The One with Inspire - not Ignite](https://www.youtube.com/watch?v=sbr2j5tmCx8)
 - July 23th 2020
 - [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-2---The-with-Inspire---not-Ignite-ejaahu)
 
