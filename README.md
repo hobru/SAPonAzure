@@ -5,7 +5,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 
 ----
 ----
-## [Episode #19 - The One with the all the data (Roman Broich)](https://youtu.be/ZEDHLc7wwwU)
+## [Episode #19 - The One with all the data (Roman Broich)](https://youtu.be/ZEDHLc7wwwU)
 - November 27th 2020
 - [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-19---The-One-with-the-all-the-data-Roman-Broich-en2cia)
 
