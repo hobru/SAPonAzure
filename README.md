@@ -5,6 +5,45 @@ Audio-Podcast available via https://anchor.fm/saponazure
 
 ----
 ----
+## [Episode #20 - The One with the Check tool for SAP on Azure (Philipp Leitenbauer)](https://youtu.be/mm_5pJKenYk)
+- December 4th 2020
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-20---The-One-with-the-Check-tool-for-SAP-on-Azure-Philipp-Leitenbauer-enbuol)
+
+In the 20th episode of our unofficial SAP on Azure video podcast we talk about SAP TechEd, new data analytics tools, Using Azure Application Firewall WAF with SAP Fiori, Azure performance tiers for managed disks and learn all about the new Quality Check for SAP on Azure from Philipp Leitenbauer.
+
+### Video Indexes
+* 0:00 Intro
+* 0:45 SAP TechEd
+* 3:43 New data analytics tools
+* 6:25 SAP ERP Data in Common Data Model
+* 8:39 Application Gateway WAF for SAP Fiori
+* 11:44 Performance tier for managed disks
+* 20:59 Philipp Leitenbauer - Azure Quality Check for SAP
+* 22:06 Quality Check v1
+* 23:19 What is checked
+* 25:00 Live demo on RedHat
+* 28:30 Live demo on SUSE
+* 32:20 Ideas for v2
+
+
+
+### Links
+* [SAP TechEd](https://pages.sapteched.com/sap/sapteched2020/index)
+* [Azure Related Sessions @ TechEd](https://events.sapteched.com/widget/sap/sapteched2020/Catalog?search=Azure)
+* [New data analytics tools](https://news.microsoft.com/innovation-stories/new-data-analytics-tools-aim-to-help-deliver-speedier-packages-better-patient-care-and-more/)
+* [Azure Purview](https://www.youtube.com/watch?v=27bA4KFiEKk)
+* [Integration of SAP ERP Data into a Common Data Model](https://blogs.sap.com/2020/12/03/integration-of-sap-erp-data-into-a-common-data-model/)
+* [Application Gateway Web Application Firewall (WAF) with SAP Fiori](https://blogs.sap.com/2020/12/03/sap-on-azure-application-gateway-web-application-firewall-waf-v2-setup-for-internet-facing-sap-fiori-apps/)
+* [Performance tiers for managed disks](https://docs.microsoft.com/en-us/azure/virtual-machines/disks-change-performance)
+---
+* [Quality Check for SAP on Azure](https://github.com/Azure/SAP-on-Azure-Scripts-and-Utilities/tree/master/QualityCheck)
+
+### Slides from the session
+* [Quality Check for SAP on Azure](Presentations/20201204-Check-Tool-For-SAP-On-Azure.pdf)
+
+
+---
+
 ## [Episode #19 - The One with all the data (Roman Broich)](https://youtu.be/ZEDHLc7wwwU)
 - November 27th 2020
 - [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-19---The-One-with-the-all-the-data-Roman-Broich-en2cia)
@@ -42,7 +81,7 @@ In the 19th episode of our unofficial SAP on Azure video podcast we talk about S
 * [How to crash your iflows and watch them failover beautifully](https://blogs.sap.com/2020/11/23/how-to-crash-your-iflows-and-watch-them-failover-beautifully/)
 * [DSAG-Technologietage 2021 virtuell](https://dsagtechtage.plazz.net/)
 * [SAP and Azure Expert Serie](https://www.linkedin.com/pulse/sap-azure-expert-serie-roman-broich/)
-
+---
 * [Develop digital inventions in Azure](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/innovate/best-practices/)
 * [Big data analytics with Azure Data Explorer](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/big-data-azure-data-explorer)
 * [How to Stream Events From SAP Directly to Microsoft Azure](https://www.datavard.com/en/blog/how-to-stream-events-from-sap-directly-to-microsoft-azure/)
