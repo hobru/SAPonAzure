@@ -30,7 +30,7 @@ Season 2020 - [Can be found here](Season2020.md)
 ----
 ## [Episode #23 - The One with Azure DevOps and SCP  (Daniel Meixner)](https://youtu.be/zvvGOnQM_OU)
 - January 8th 2021
-- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-23)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-23---The-One-with-Azure-DevOps-and-SCP-Daniel-Meixner-eon3v3)
 
 In the 23rd episode of our unofficial SAP on Azure video podcast we are looking at the previously created content, talk about deploying SAP ASC/ERS with Azure Files NFS, look at several tutorials on the Developers.sap.com pages, talk about SAP ByDesign and Teams integration and look at SAPs upcoming event RISE. Then our expert Daniel Meixner talks about Azure DevOps with SAP Cloud Platform. 
 
