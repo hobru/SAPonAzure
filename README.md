@@ -4,10 +4,11 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 Audio-Podcast available via https://anchor.fm/saponazure 
 
 Season 2020 - [Can be found here](Season2020.md)
+
 ----
 ## [Episode #24 - The One with Logic Apps (David Burg)](https://youtu.be/149-LkqcqZM)
 - January 14th 2021
-- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-23---The-One-with-Azure-DevOps-and-SCP-Daniel-Meixner-eon3v3)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-24---The-One-with-Logic-Apps-David-Burg-ep0cr1)
 
 In the 24th episode of our unofficial SAP on Azure video podcast we are talking about GitHub on-prem integration with SAP Cloud Platform Continuous Integration and Delivery, Building side-by-side extension with Kyma and Azure, Power Virtual Agent SSO Support with Teams, VS Code Day and DSAG Technologietage 2021. Then we have David Burg talking about Logic Apps with SAP. 
 
