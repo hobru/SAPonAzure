@@ -7,7 +7,7 @@ Season 2020 - [Can be found here](Season2020.md)
 ----
 ## [Episode #29 - The One with the Power Platform (Marysol Mantilla)](https://youtu.be/W5pkGjF62ug)
 - Feburary 19th 2021
-- [Audio Podcast on Anchor](https://anchor.fm/saponazure)
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/Episode-29---The-One-with-the-Power-Platform-Marysol-Mantilla-eql1gb)
 
 In the 29th episode of our unofficial SAP on Azure video podcast we are looking at ASCS failover to DR, Stopping / Starting a SAP System, ABAP Platform developer edition, Power BI, Dapr 1.0 and webinars. Then we go deep with Marysol Mantilla on Power Platform and integrating in SAP. 
 
