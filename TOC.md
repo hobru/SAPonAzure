@@ -33,6 +33,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | Azure Active Directory and SAP SuccessFactors| Chetan Desai| https://youtu.be/Czi2Ai-6lyc?t=449| 
 | Integration| Bartosz Jarkowski| https://youtu.be/byXiec0DMC0?t=896| 
 | First Integration Demo| Martin Pankraz| https://youtu.be/Nha5uwE6K9Q?t=1756| 
+| Power Platform Integration | Marysol Mantilla  | https://youtu.be/W5pkGjF62ug?t=980 | 
 | **Misc** |
 | Closing off 2020 | Jürgen Thomas |https://youtu.be/UNLNRr5VZKY |
 | Extending the partnership: SAP & Microsoft | Veronika Reger | https://youtu.be/csqzVjqGf3o?t=535|
