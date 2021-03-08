@@ -74,23 +74,6 @@ In the 31st episode of our unofficial SAP on Azure video podcast we are looking 
 * [Principal propagation in a multi-cloud solution between Microsoft Azure and SAP Cloud Platform (SCP), Part I: Building the foundation](https://blogs.sap.com/2020/07/17/principal-propagation-in-a-multi-cloud-solution-between-microsoft-azure-and-sap-cloud-platform-scp/)
 * [Principal propagation in a multi-cloud solution between Microsoft Azure and SAP Cloud Platform (SCP), Part II: Connecting the system on-premise](https://blogs.sap.com/2020/10/01/principal-propagation-in-a-multi-cloud-solution-between-microsoft-azure-and-sap-cloud-platform-scp-part-ii/)
 * [Principal propagation in a multi-cloud solution between Microsoft Azure and SAP Cloud Platform (SCP), Part III: Teams SSO, Process Integration & Core Data Services](https://blogs.sap.com/2021/02/24/principal-propagation-in-a-multi-cloud-solution-between-microsoft-azure-and-sap-cloud-platform-scp-part-iii-teams-sso-process-integration-core-data-services/)
-* [xx](xx)
-* [xx](xx)
-* [xx](xx)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ----
