@@ -14,10 +14,11 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | Partner Magic with SCP & Azure|Etienne Dittrich, Leon Davis|https://youtu.be/mm_5pJKenYk?t=1253|
 | Azure Cost Management Dashboard | Philipp Leitenbauer | https://youtu.be/oE5aCWgUJWY?t=460 |
 | Global Deployments| Etienne Dittrich| https://youtu.be/yarrxqyzn5E?t=806| 
-| Azure Monitor for SAP Solutions| Tobias Niekamp| https://youtu.be/Sno3EduDc1E?t=1096| 
+| Azure Monitor for SAP Solutions (AMS) | Tobias Niekamp| https://youtu.be/Sno3EduDc1E?t=1096| 
+| AMS for SAP NetWeaver | Ramakrishna Ramadurgam | https://youtu.be/2wln9hTLC8k?t=900|
 | Azure Cloud Adoption Framework| Niels Ophey| https://youtu.be/BLnHfIK9wVw?t=644| 
 | SAP Landscape Manager and Azure | Steffen Müller | https://youtu.be/N96jgZJdtB4?t=912|
-| Azure DevOps and SCP | Daniel Meixxner | https://youtu.be/zvvGOnQM_OU?t=872|
+| Azure DevOps and SCP | Daniel Meixner | https://youtu.be/zvvGOnQM_OU?t=872|
 | **Architecture** |
 | Proximity Placement Groups| Robert Boban| https://youtu.be/E6GIS_2YM3k?t=445| 
 | Availability Zones| Philipp Leitenbauer| https://youtu.be/iS-wh9aHSJU?t=1202| 
