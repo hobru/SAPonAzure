@@ -19,8 +19,9 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | Azure Cloud Adoption Framework| Niels Ophey| https://youtu.be/BLnHfIK9wVw?t=644| 
 | SAP Landscape Manager and Azure | Steffen Müller | https://youtu.be/N96jgZJdtB4?t=912|
 | Azure DevOps and SCP | Daniel Meixner | https://youtu.be/zvvGOnQM_OU?t=872|
+| DevOps - Deployment Strategies | Martin Pankraz | https://youtu.be/SKuqJ6ZFpVc |
 | Automatino using Azure Runbooks | Goran Condric & Robert Biro | https://youtu.be/blaCIG1omc0?t=872 |
-| Using Power Apps to trigger runbooks | Martin Pankraz | | 
+| Using Power Apps to trigger runbooks | Martin Pankraz | https://youtu.be/pGX45kLTTDo?t=1159 | 
 | **Architecture** |
 | Proximity Placement Groups| Robert Boban| https://youtu.be/E6GIS_2YM3k?t=445| 
 | Availability Zones| Philipp Leitenbauer| https://youtu.be/iS-wh9aHSJU?t=1202| 

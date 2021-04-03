@@ -5,6 +5,47 @@ Audio-Podcast available via https://anchor.fm/saponazure
 
 Season 2020 - [Can be found here](Season2020.md)
 
+----
+## [#35 - The One with the Blue-Green Deployment (Martin Pankraz) | SAP on Azure Video Podcast](https://youtu.be/SKuqJ6ZFpVc)
+- April 1st 2021
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/35---The-One-with-the-Blue-Green-Deployment-Martin-Pankraz--SAP-on-Azure-Video-Podcast-eu3bu8)
+
+In the 35th episode of our unofficial SAP on Azure video podcast we are looking at the new Solution Diagrams from SAP for the Business Technology Platform, Azure Functions in the Forrester Wave, Microsoft Learn with Graph and the MSAL Authentication Library, upcoming Partner Roundtabels and DSAG 2021. Then we have Martin Pankraz again on the show continuing the Azure DevOps & BTP story with Blue/Green Deployment strategies.  
+
+### Video Indexes
+* 0:00 Intro
+* 1:06 New Solution Diagrams
+* 1:58 Function as a service
+* 3:21 Microsoft Learn & Graph
+* 5:07 Microsoft Authentication Library
+* 6:11 Partner Roundtable
+* 7:14 DSAG 2021
+* 8:14 Introducing Martin Pankraz
+* 9:53 transport strategies
+* 12:53 different release strategies
+* 18:13 Demo: release directly to production
+* 20:49 deploy changes in the app
+* 28:03 resume / reject
+* 33:42 Rollback
+* 36:50 Feature Flags
+* 42:50 Considering the backend
+
+
+
+
+### Links
+* [SAP Business Technology Platform Solution Diagrams & Icons](https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=477829554)
+* [DSAG-Jahreskongress 2021 | DSAGLIVE 2021](https://dsaglive.plazz.net/)
+* [SAP & Azure Partner Roundtable: Gemeinsam „embracen und risen“ ](https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x12093748abcd)
+* [Microsoft Graph Fundamentals now on Microsoft Learn](https://developer.microsoft.com/en-us/graph/blogs/microsoft-graph-fundamentals-now-on-microsoft-learn/)
+* [Accelerate your app adoption with MSAL for Node.js](https://developer.microsoft.com/en-us/identity/blogs/accelerate-your-app-adoption-with-msal-for-node-js/)
+* [Microsoft named a Leader in Forrester Wave: Function-as-a-Service Platforms](https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-forrester-wave-functionasaservice-platforms/)
+* [Canary Releases for SAPUI5 with Azure DevOps](https://blogs.sap.com/2019/10/21/canary-releases-for-sapui5-with-azure-devops/)
+* [Go blue/green with your Cloud Foundry app from WebIDE with Azure DevOps](https://blogs.sap.com/2019/12/20/go-blue-green-for-your-cloud-foundry-app-from-webide-with-azure-devops/)
+
+
+
+
 
 ----
 ## [Episode #34 - The One with Power Apps managing your SAP System (Martin Pankraz)](https://youtu.be/pGX45kLTTDo)
@@ -39,6 +80,7 @@ In the 34th episode of our unofficial SAP on Azure video podcast we are looking 
 
 ### Links
 * [The Next Great Disruption Is Hybrid Work—Are We Ready?](https://www.microsoft.com/en-us/worklab/work-trend-index/hybrid-work)
+* [Visual Guide](https://ms-worklab.azureedge.net/files/reports/hybridWork/pdf/WTIVisualGuide.pdf)
 * [SAP Fiori using Azure CDN for SAPUI5 libraries](https://blogs.sap.com/2021/03/22/sap-fiori-using-azure-cdn-for-sapui5-libraries/)
 * [Digital Insights. Zusammen für Deine Zukunft. ](https://www.mint-ec.de/digital-insights/)
 * [Architectural Decisions to maximize ANF investment in HANA N+M Scale-Out Architecture - Part 3](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/architectural-decisions-to-maximize-anf-investment-in-hana-n-m/ba-p/2215948)
