@@ -5,6 +5,46 @@ Audio-Podcast available via https://anchor.fm/saponazure
 
 Season 2020 - [Can be found here](Season2020.md)
 
+## [#36 - The One with Azure Backup for SAP HANA (Kartik Pullabhotla) | SAP on Azure Video Podcast](https://youtu.be/MjAhePSKvzw)
+- April 9th 2021
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/36---The-One-with-Azure-Backup-for-SAP-HANA-Kartik-Pullabhotla--SAP-on-Azure-Video-Podcast-euhv88)
+
+
+In the 36th episode of our unofficial SAP on Azure video podcast we are looking at new coolings with Azure datacenter, Paths to Microsoft Azure, Pluarsight AZ-120 certification, Power Apps Code Review, Microsoft certifications, Hands-on labs and OpenJDK. Then we do a deep dive with Kartik Pullabhotla on Azure Backup for SAP HANA and look at configuration, backup and restore!
+
+### Video Indexes
+* 0:00 Intro
+* 1:16 Datacenter with liquid cooling
+* 3:38 Path to Microsoft Azure
+* 4:28 Building and Deploying Azure for SAP Workloads
+* 6:07 Power Apps Code Review Tool
+* 8:34 Tobias Hofmann & Certifications
+* 9:50 FREE Microsoft Certification Hands-on Labs
+* 11:36 Microsoft Build of OpenJDK
+* 14:52 Introducing Kartik 
+* 17:07 Agenda
+* 18:03 What is Azure Backup
+* 26:27 Azure Backup for HANA
+* 31:27 Architecture
+* 38:55 Demo - Backup Center
+* 47:00 Demo - Configuring HANA system
+* 52:00 Demo - Backup
+* 1:04:48 Demo - Restore
+* 1:12:10 Roadmap
+
+
+
+### Links
+* [To cool datacenter servers, Microsoft turns to boiling liquid](https://news.microsoft.com/innovation-stories/datacenter-liquid-cooling/)
+* [Paths to Microsoft Azure for SAP Customers](https://blog.sap-press.com/paths-to-microsoft-azure-for-sap-customers?utm_campaign=Blog&utm_content=160786297)
+* [Power Apps Code Review Tool](https://powerapps.microsoft.com/en-us/blog/power-apps-code-review-tool/)
+* [Create your own snippets for Abap in VSCode](https://www.youtube.com/watch?v=g8X6owttHFY)
+* [Building and Deploying Azure for SAP Workloads](https://app.pluralsight.com/library/courses/building-deploying-azure-sap-workloads/table-of-contents)
+* [Tobias Hofmann - MS Build & Learn](https://twitter.com/tobiashofmann/status/1379864568529367051?s=20)
+* [Top FREE Microsoft Certification Hands-on Labs](https://build5nines.com/top-free-microsoft-certification-hands-on-labs/)
+* [Preview of Microsoft Build of OpenJDK](https://devblogs.microsoft.com/java/announcing-preview-of-microsoft-build-of-openjdk/)
+
+
 ----
 ## [#35 - The One with the Blue-Green Deployment (Martin Pankraz) | SAP on Azure Video Podcast](https://youtu.be/SKuqJ6ZFpVc)
 - April 1st 2021
@@ -42,6 +82,7 @@ In the 35th episode of our unofficial SAP on Azure video podcast we are looking 
 * [Microsoft named a Leader in Forrester Wave: Function-as-a-Service Platforms](https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-forrester-wave-functionasaservice-platforms/)
 * [Canary Releases for SAPUI5 with Azure DevOps](https://blogs.sap.com/2019/10/21/canary-releases-for-sapui5-with-azure-devops/)
 * [Go blue/green with your Cloud Foundry app from WebIDE with Azure DevOps](https://blogs.sap.com/2019/12/20/go-blue-green-for-your-cloud-foundry-app-from-webide-with-azure-devops/)
+* [What Is SAP Feature Flags Service](https://help.sap.com/viewer/2250efa12769480299a1acd282b615cf/Cloud/en-US/d485374a71a149a7ba96b7403985a1a6.html)
 
 
 
