@@ -16,6 +16,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | Global Deployments| Etienne Dittrich| https://youtu.be/yarrxqyzn5E?t=806| 
 | Azure Monitor for SAP Solutions (AMS) | Tobias Niekamp| https://youtu.be/Sno3EduDc1E?t=1096| 
 | AMS for SAP NetWeaver | Ramakrishna Ramadurgam | https://youtu.be/2wln9hTLC8k?t=900|
+| Azure Backup for SAP HANA | Kartik Pullabhotla | https://youtu.be/MjAhePSKvzw?t=894 | 
 | Azure Cloud Adoption Framework| Niels Ophey| https://youtu.be/BLnHfIK9wVw?t=644| 
 | SAP Landscape Manager and Azure | Steffen Müller | https://youtu.be/N96jgZJdtB4?t=912|
 | Azure DevOps and SCP | Daniel Meixner | https://youtu.be/zvvGOnQM_OU?t=872|
