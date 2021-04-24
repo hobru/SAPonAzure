@@ -4,6 +4,42 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 Audio-Podcast available via https://anchor.fm/saponazure 
 
 Season 2020 - [Can be found here](Season2020.md)
+---
+## [#38 - The One with the Zero Trust for SAP (Evren Buyruk) | SAP on Azure Video Podcast](https://youtu.be/dUuLCge91KQ)
+- April 22th 2021
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/38---The-One-with-the-Zero-Trust-for-SAP-Evren-Buyruk--SAP-on-Azure-Video-Podcast-evg98k)
+
+
+In Episode #38 we talk about new M-Series VMs, HA Cluster monitoring for Azure Monitoring for SAP, a virtual datacenter tour, whislist for SAPPHIRE 2021 bei Tobias Hofmann, Microsoft Learn and built-it sandboxes to do excercises and an Innovation Hackathon. Then we have Evnre Buyruk joining us with a very detailed tour through security and networking for SAP on Azure.   
+
+### Video Indexes
+* 0:00 Intro
+* 1:21 New M-Series
+* 2:18 AMS HA Cluster
+* 5:03 Datacenter Tour
+* 7:13 SAPPHIRE Wishlist
+* 9:01 Learn K8s
+* 11:48 Innovation Hackathon
+* 13:14 Introduction Evren
+* 15:05 Security Investments
+* 18:41 Cloud based security control
+* 24:40 Microsoft Security Management
+* 34:34 Azure Networking Services
+* 55:50 Network Traffic Filtering 
+* 1:07:00 Closing
+
+
+
+### Links
+* [new M-series Msv2/Mdsv2 Medium Memory VMs for memory-optimized workloads](https://azure.microsoft.com/en-us/updates/announcing-general-availability-of-new-mseries-msv2mdsv2-medium-memory-vms-for-memoryoptimized-workloads/)
+* [Azure Monitor for SAP Solutions HA Cluster features](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/new-azure-monitor-for-sap-solutions-ha-cluster-features/ba-p/2270622)
+* [learn how to use Kubernetes in Azure](https://aka.ms/aks-sandbox)
+* [Tobias Hofmann: SAPPHIRE NOW 2021 wish list](https://www.itsfullofstars.de/?p=7021)
+* [new virtual datacenter tour](https://news.microsoft.com/stories/microsoft-datacenter-tour/)
+* [SAP and Microsoft Innovation Hackathon](https://events.sap.com/au/sapxmicrosofthackathon2021/en/home)
+* []()
+
+
 
 ---
 ## [#37 - The One with Backup in Azure (Robert Boban) | SAP on Azure Video Podcast](https://youtu.be/ipwjwoHQYxg)
@@ -511,6 +547,7 @@ In the 27th episode of our unofficial SAP on Azure video podcast we are looking 
 * [Video: Introducing Microsoft Viva – The Employee Experience Platform and Ecosystem](https://www.youtube.com/watch?t=123&v=JZeU0Fi-IqY)
 * [Microsoft / SAP / Intel Workshop: Better Together!](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/microsoft-sap-intel-workshop-better-together-register-link/ba-p/2113158)
 * [Video: Remove Barriers for Your Sales Teams with SAP and Microsoft](https://www.sap.com/assetdetail/2021/02/c09c8e24-cc7d-0010-87a3-c30de2ffd8ff.html)
+* [YouTube Video: Remove Barriers for Your Sales Teams with SAP and Microsoft](https://www.youtube.com/watch?v=V4-IM94TN24)
 
 
 

@@ -17,11 +17,12 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | Azure Monitor for SAP Solutions (AMS) | Tobias Niekamp| https://youtu.be/Sno3EduDc1E?t=1096| 
 | AMS for SAP NetWeaver | Ramakrishna Ramadurgam | https://youtu.be/2wln9hTLC8k?t=900|
 | Azure Backup for SAP HANA | Kartik Pullabhotla | https://youtu.be/MjAhePSKvzw?t=894 | 
+| Azure Backup - General overview | Robert Boban | https://youtu.be/ipwjwoHQYxg?t=714 |
 | Azure Cloud Adoption Framework| Niels Ophey| https://youtu.be/BLnHfIK9wVw?t=644| 
 | SAP Landscape Manager and Azure | Steffen Müller | https://youtu.be/N96jgZJdtB4?t=912|
 | Azure DevOps and SCP | Daniel Meixner | https://youtu.be/zvvGOnQM_OU?t=872|
 | DevOps - Deployment Strategies | Martin Pankraz | https://youtu.be/SKuqJ6ZFpVc |
-| Automatino using Azure Runbooks | Goran Condric & Robert Biro | https://youtu.be/blaCIG1omc0?t=872 |
+| Automation using Azure Runbooks | Goran Condric & Robert Biro | https://youtu.be/blaCIG1omc0?t=872 |
 | Using Power Apps to trigger runbooks | Martin Pankraz | https://youtu.be/pGX45kLTTDo?t=1159 | 
 | **Architecture** |
 | Proximity Placement Groups| Robert Boban| https://youtu.be/E6GIS_2YM3k?t=445| 
