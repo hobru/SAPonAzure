@@ -27,6 +27,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | **Architecture** |
 | Proximity Placement Groups| Robert Boban| https://youtu.be/E6GIS_2YM3k?t=445| 
 | Availability Zones| Philipp Leitenbauer| https://youtu.be/iS-wh9aHSJU?t=1202| 
+| Zero Trust with SAP | Evren Buyruk | https://youtu.be/dUuLCge91KQ?t=796 | 
 | **High-Availability** |
 | ASC Deployments on Azure Files with NFS | Ralizta Deltcheva | https://youtu.be/hl3QJVAHZKM?t=553 |
 | Azure Shared Disks| Goran Condric| https://youtu.be/emR1hn0p0q4?t=467| 
