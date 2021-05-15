@@ -45,6 +45,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | Power Platform Integration | Marysol Mantilla  | https://youtu.be/W5pkGjF62ug?t=980 | 
 | Invoice Processing using Logic Apps | Bartosz Jarkowski | https://youtu.be/fYRC13pF-Ck?t=851 | 
 | SSO / Principal Propagation from Teams to SAP system | Martin Raepple | https://youtu.be/qklktE9FPCI?t=1442 |
+| SSO from Teams to SAP system using on-prem data Gateway | Martin Raepple | https://youtu.be/AdD9BcMu75Y?t=613 |
 | **Misc** |
 | Closing off 2020 | Jürgen Thomas |https://youtu.be/UNLNRr5VZKY |
 | Extending the partnership: SAP & Microsoft | Veronika Reger | https://youtu.be/csqzVjqGf3o?t=535|
