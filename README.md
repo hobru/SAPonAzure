@@ -5,7 +5,7 @@ Audio-Podcast available via https://anchor.fm/saponazure
 
 Season 2020 - [Can be found here](Season2020.md)
 ---
-## [#41 - The One with Azure Synape, Power BI and SAP (Roman Broich) | SAP on Azure Video Podcast](https://youtu.be/oANMWD5rTig)
+## [#41 - The One with Azure Synapse, Power BI and SAP (Roman Broich) | SAP on Azure Video Podcast](https://youtu.be/oANMWD5rTig)
 - May 14th 2021
 - [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/41---The-One-with-Azure-Synape--Power-BI-and-SAP-Roman-Broich--SAP-on-Azure-Video-Podcast-e10sh3d)
 
