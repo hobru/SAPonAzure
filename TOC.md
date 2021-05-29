@@ -19,6 +19,8 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | Azure Backup for SAP HANA | Kartik Pullabhotla | https://youtu.be/MjAhePSKvzw?t=894 | 
 | Azure Backup - General overview | Robert Boban | https://youtu.be/ipwjwoHQYxg?t=714 |
 | Azure Cloud Adoption Framework| Niels Ophey| https://youtu.be/BLnHfIK9wVw?t=644| 
+| Enterprise scale support for SAP on Azure | Matt Henry + Jeff Mitchell | https://youtu.be/JfkNUCpIpKs?t=588 |
+| Azure DevOps Demo Generator for SAP  | Robert Biro & Petra Peters | https://youtu.be/C3ifXk4zF4s?t=797 |
 | SAP Landscape Manager and Azure | Steffen Müller | https://youtu.be/N96jgZJdtB4?t=912|
 | Azure DevOps and SCP | Daniel Meixner | https://youtu.be/zvvGOnQM_OU?t=872|
 | DevOps - Deployment Strategies | Martin Pankraz | https://youtu.be/SKuqJ6ZFpVc |
