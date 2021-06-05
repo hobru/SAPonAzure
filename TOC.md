@@ -39,7 +39,6 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | Azure NetApp Files - Backup| Ralf Klahr| https://youtu.be/MvEzYu41Mko?t=501| 
 | Azure NetApp Files| Ralf Klahr| https://youtu.be/zPALOig4CRM?t=1040| 
 | **Integration** |
-| All about data | Roman Broich |https://youtu.be/ZEDHLc7wwwU?t=991 |
 | Azure Active Directory and SAP SuccessFactors| Chetan Desai| https://youtu.be/Czi2Ai-6lyc?t=449| 
 | Getting started with Logic Apps | David Burg | https://youtu.be/149-LkqcqZM?t=435 |
 | Integration| Bartosz Jarkowski| https://youtu.be/byXiec0DMC0?t=896| 
@@ -48,7 +47,9 @@ Audio-Podcast available via https://anchor.fm/saponazure
 | Invoice Processing using Logic Apps | Bartosz Jarkowski | https://youtu.be/fYRC13pF-Ck?t=851 | 
 | SSO / Principal Propagation from Teams to SAP system | Martin Raepple | https://youtu.be/qklktE9FPCI?t=1442 |
 | SSO from Teams to SAP system using on-prem data Gateway | Martin Raepple | https://youtu.be/AdD9BcMu75Y?t=613 |
+| All about data | Roman Broich |https://youtu.be/ZEDHLc7wwwU?t=991 |
 | Azure Synapse, Power BI and SAP | Roman Broich | https://youtu.be/oANMWD5rTig?t=1454 |
+| Azure Data Factory Accelerator | Bartosz Jarkowski & Marius Panga) | https://youtu.be/1aqJo7KY6JA?t=989 |
 | **Misc** |
 | Closing off 2020 | Jürgen Thomas |https://youtu.be/UNLNRr5VZKY |
 | Extending the partnership: SAP & Microsoft | Veronika Reger | https://youtu.be/csqzVjqGf3o?t=535|
