@@ -7,7 +7,7 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 
 Season 2020 - [Can be found here](Season2020.md)
 
-https://news.microsoft.com/de-de/faktencheck-datenschutz-wir-klaeren-auf/
+
 ---
 
 ## [#46 - The One with the automated SAP system deployment (Michael Mergell) | SAP on Azure Video Podcast](https://youtu.be/e656SuL4788)
