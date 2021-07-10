@@ -11,10 +11,53 @@ Season 2020 - [Can be found here](Season2020.md)
 
 ---
 
+## [#49 - The One with predicting Cashflow (Bart Delanghe & Thijs Zandvliet) | SAP on Azure Video Podcast](https://youtu.be/8STulN6XQc8)
+
+- July 9nd 2021
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/49---The-One-with-predicting-Cashflow-Bart-Delanghe--Thijs-Zandvliet--SAP-on-Azure-Video-Podcast-e146881)
+- [Spotify](https://open.spotify.com/episode/2HpBYLLhDMjWrGfm4ekXp3)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/49-one-predicting-cashflow-bart-delanghe-thijs-zandvliet/id1531372929?i=1000528365514)
+
+In Episode #49 of the SAP on Azure video podcast we talk about yet another blog post about the new SAP Private Link service for Azure, Sending Notifications from BTP applications to the SAP Fiori Launchpad, deploying SAP IQ NLS HA solutions using Azure shared disks on Windows server, link collection for SAP on Azure, upcoming session about ABAP, Past Present and Future and updates of the famous Azure Charts. Then we have Bart Delanghe & Thijs Zandvliet showing us an SAP Microhack about CashFLow Predictions using Cosmos DB, Synapse, Azure Machine Learning & Power BI that you can easily build yourself following the detailed tutorial on GitHub.
+
+### Video Indexes
+
+- 0:00 Intro
+- 1:06 Azure and BTP private link
+- 3:24 Notifications in BTP 
+- 4:37 SAP IQ NLS HA Solution
+- 8:18 Links for SAP on Azure
+- 9:19 ABAP - Past, Present & Future
+- 10:04 Azure Charts
+- 11:25 Intro Bart and Thijs
+- 13:04 Intoduction of the scenario
+- 14:35 Architecture
+- 16:26 Demo setup
+- 18:47 Power BI & ML
+- 26:06 ML & Power BI
+- 28:53 Walk through MicroHack
+
+### Links
+
+- [Whatever happens in an Azure and BTP private linky swear, stays in the linky swear!](https://blogs.sap.com/2021/07/02/whatever-happens-in-an-azure-and-btp-private-linky-swear-stays-in-the-linky-swear/)
+- [Sending Notifications from SAP BTP applications to the SAP Fiori Launchpad](https://blogs.sap.com/2021/07/06/sending-notifications-from-sap-btp-applications-to-the-sap-fiori-launchpad/)
+- [Deploy SAP IQ NLS HA Solution using Azure shared disk on Windows Server](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/deploy-sap-iq-nls-ha-solution-using-azure-shared-disk-on-windows/ba-p/2433089)
+- [Awesome SAP on Azure](https://github.com/sanjeevkumar761/awesome-sap-on-azure)
+- [Connect to SAP systems from Azure Logic Apps - Prerequisites](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-using-sap-connector#prerequisites)
+- [ABAP - Past, Present & Future](https://www.youtube.com/watch?v=5lRjbSga38g)
+- [Azure Charts](https://azurecharts.com/)
+- [SAP Microhack: CashFlow Prediction](https://github.com/thzandvl/microhack-sap-data)
+
+
+---
+
 ## [#48 - The One with Workbooks for Application Gateway WAF Triage (Christof Claessens & Martin Pankraz) | SAP on Azure Video Podcast](https://youtu.be/kAnWTqKlGGo)
 
 - July 2nd 2021
 - [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/48---The-One-with-Workbooks-for-Application-Gateway-WAF-Triage-Christof-Claessens--Martin-Pankraz--SAP-on-Azure-Video-Podcast-e13r2ib)
+- [Spotify](https://open.spotify.com/episode/5qM0aoiprykFHOE6OiGLVg?si=Zleh-w01TeCLCGkxvBWIKg&dl_branch=1)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/48-one-workbooks-for-application-gateway-waf-triage/id1531372929?i=1000527648057)
+
 
 In Episode #48 of the SAP on Azure video podcast we talk about Microsoft Digital examining SAP transactions with Azure Anomaly Detectors, securing connection to Azure, SAP Private Link Service for Azure in Beta, BTP free tiers, SAP API Business Hub, SAP Graph, Cross region replication using rsync, Power Platform fundamentals, video series on hyperautomation for SAP based integration with Power Automate, GitHub Actions and Power Platform and also GitHub Copilot. 
 Then we have Christof Claessens & Martin Pankraz troubleshooting with us SAP Fiori & Web Application Gateway features. Using predefined workbooks identifying issues and solving them is just a few clicks away.
@@ -68,7 +111,9 @@ Then we have Christof Claessens & Martin Pankraz troubleshooting with us SAP Fio
 - [Hyperautomation special video series for SAP based integration and automation with Power Automate](https://flow.microsoft.com/en-us/blog/hyperautomation-special-video-series-for-sap-based-integration-automation-with-power-automate/)
 - [Power Platform Fundamentals](https://docs.microsoft.com/en-us/learn/challenges?id=91c45d5a-8439-4c9c-83b3-1c36ca8e1ea8)
 - [New Power Platform features reinforce end-to-end security, management, monitoring, and compliance](https://cloudblogs.microsoft.com/powerplatform/2021/06/29/new-power-platform-features-reinforce-end-to-end-security-management-monitoring-and-compliance/)
+- [SAP on Azure: Azure Application Gateway Web Application Firewall (WAF) v2 Setup for Internet facing SAP Fiori Apps](https://blogs.sap.com/2020/12/03/sap-on-azure-application-gateway-web-application-firewall-waf-v2-setup-for-internet-facing-sap-fiori-apps)
 - [Workbook for Application Gateway WAF Triage](https://github.com/xstof/AppGatewayWAFTriageWorkbook)
+
 
 ---
 
