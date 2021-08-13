@@ -46,7 +46,7 @@ In Episode 54 of the SAP on Azure Video Podcast we talk about Application Securi
 - 52:02 Call to action
 
 ### Links
-- [Slides: SFSF <-> AAD Integration](Presentation/SAP_SuccessFactors_with_Azure_AD-SAP-on-Azure-Podcast-Aug-2021.pdf)
+- [Slides: SFSF <-> AAD Integration](https://github.com/hobru/SAPonAzure/blob/master/Presentations/SAP_SuccessFactors_with_Azure_AD-SAP-on-Azure-Podcast-Aug-2021.pdf)
 
 - [Application Security groups in SAP on Azure deployments](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/application-security-groups-in-sap-on-azure-deployments/ba-p/2515545)
 - [Application Security Groups now generally available in all Azure regions](https://azure.microsoft.com/de-de/blog/applicationsecuritygroups/)
