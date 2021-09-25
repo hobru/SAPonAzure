@@ -9,7 +9,7 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 
 Season 2020 - [Can be found here](Season2020.md)
 
-## [#60 - The one with SAP on Azure Community in Germany (Bernhard Friess) | SAP on Azure Video Podcast](hhttps://youtu.be/1oYpzeyUDFw)
+## [#60 - The one with SAP on Azure Community in Germany (Bernhard Friess) | SAP on Azure Video Podcast](https://youtu.be/1oYpzeyUDFw)
 
 - September 23rd 2021
 - [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/60---The-one-with-SAP-on-Azure-Community-in-Germany-Bernhard-Friess--SAP-on-Azure-Video-Podcast-e17r6mj)
