@@ -39,17 +39,17 @@ In Episode 60 of the SAP on Azure Video Podcast we talk about remote audits of A
 
 
 ### Links
--[Improve availability with zone-redundant storage for Azure Disk Storage](https://azure.microsoft.com/en-us/blog/improve-availability-with-zoneredundant-storage-for-azure-disk-storage/)
--[Building Solutions for a Future that has Already Arrived](https://www.linkedin.com/pulse/building-solutions-future-has-already-arrived-thomas-saueressig/?trackingId=wZG1uS2VRFy613McBTlfDQ%3D%3D)
--[If you thought the trade war was bad for global commerce...](https://www.economist.com/finance-and-economics/2020/03/26/if-you-thought-the-trade-war-was-bad-for-global-commerce)
--[Microsoft enhances datacenter audits, management with mixed reality using Dynamics 365 Remote Assist on HoloLens 2](https://customers.microsoft.com/en-us/story/1344094026667338403-microsoft-partner-professional-services-dynamics-365)
--[General availability: Oracle consistent snapshots using Azure VM Backup](https://azure.microsoft.com/en-us/updates/oracle-consistent-snapshots-using-azure-vm-backup-generally-available/)
--[How to Designing Microsoft Flow in Visio](https://iiu.dk/2019/06/26/designing-microsoft-flow-in-visio/?feed_id=6&_unique_id=614854d45f21d)
--[Integrating Microsoft Teams with SAP Digital Manufacturing Cloud](https://blogs.sap.com/2021/09/17/integrating-microsoft-teams-with-sap-digital-manufacturing-cloud/)
--[Hunting for OMI Vulnerability Exploitation with Azure Sentinel](https://techcommunity.microsoft.com/t5/azure-sentinel/hunting-for-omi-vulnerability-exploitation-with-azure-sentinel/ba-p/2764093)
--[Announcing the private preview of the Configuration and SAP Installation for the SAP Deployment Auto](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/announcing-the-private-preview-of-the-configuration-and-sap/ba-p/2760059)
--[Black Friday will take your CPI instance offline unless…](https://blogs.sap.com/2021/09/23/black-friday-will-take-your-cpi-instance-offline-unless/)
 
+- [Improve availability with zone-redundant storage for Azure Disk Storage](https://azure.microsoft.com/en-us/blog/improve-availability-with-zoneredundant-storage-for-azure-disk-storage/)
+- [Building Solutions for a Future that has Already Arrived](https://www.linkedin.com/pulse/building-solutions-future-has-already-arrived-thomas-saueressig/?trackingId=wZG1uS2VRFy613McBTlfDQ%3D%3D)
+- [If you thought the trade war was bad for global commerce...](https://www.economist.com/finance-and-economics/2020/03/26/if-you-thought-the-trade-war-was-bad-for-global-commerce)
+- [Microsoft enhances datacenter audits, management with mixed reality using Dynamics 365 Remote Assist on HoloLens 2](https://customers.microsoft.com/en-us/story/1344094026667338403-microsoft-partner-professional-services-dynamics-365)
+- [General availability: Oracle consistent snapshots using Azure VM Backup](https://azure.microsoft.com/en-us/updates/oracle-consistent-snapshots-using-azure-vm-backup-generally-available/)
+- [How to Designing Microsoft Flow in Visio](https://iiu.dk/2019/06/26/designing-microsoft-flow-in-visio/?feed_id=6&_unique_id=614854d45f21d)
+- [Integrating Microsoft Teams with SAP Digital Manufacturing Cloud](https://blogs.sap.com/2021/09/17/integrating-microsoft-teams-with-sap-digital-manufacturing-cloud/)
+- [Hunting for OMI Vulnerability Exploitation with Azure Sentinel](https://techcommunity.microsoft.com/t5/azure-sentinel/hunting-for-omi-vulnerability-exploitation-with-azure-sentinel/ba-p/2764093)
+- [Announcing the private preview of the Configuration and SAP Installation for the SAP Deployment Auto](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/announcing-the-private-preview-of-the-configuration-and-sap/ba-p/2760059)
+- [Black Friday will take your CPI instance offline unless…](https://blogs.sap.com/2021/09/23/black-friday-will-take-your-cpi-instance-offline-unless/)
 
 ---
 ## [#59 - The next one with the Cloud Adoption Framework (Robert Boban) | SAP on Azure Video Podcast](https://youtu.be/KHix5lrujiI)
