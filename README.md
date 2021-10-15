@@ -87,6 +87,7 @@ In Episode 62 of the SAP on Azure Video Podcast we talk about Power Automate Des
 - [Understand Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)
 - [On-demand Capacity Reservation (preview)](https://docs.microsoft.com/en-us/azure/virtual-machines/capacity-reservation-overview?tabs=cli1)
 - [SAP on Azure Implementation Guide: Move your business data to the cloud](https://www.amazon.com/SAP-Azure-Implementation-Guide-business/dp/1838983988)
+- [Slides for Capacity Reserveration](https://github.com/hobru/SAPonAzure/blob/master/Presentations/Azure%20Capacity%20Reservations%20v0.1.0.pdf)
 ---
 
 
