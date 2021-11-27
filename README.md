@@ -13,7 +13,7 @@ Season 2020 - [Can be found here](Season2020.md)
 
 ## [#69 - The one with SAP workloads sizing on Azure  (Trond Stroemme) | SAP on Azure Video Podcast](https://youtu.be/CK_RZndvt64)
 
-- November 18th 2021
+- November 25th 2021
 - [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/69---The-one-with-SAP-workloads-sizing-on-Azure-Trond-Stroemme--SAP-on-Azure-Video-Podcast-e1araql)
 - [Spotify](https://open.spotify.com/episode/430eQ1CJl9uBAPgUOe5wVP?si=We0zn-_cTqaf3EFgKrb8EQ)
 - [Apple Podcast](https://podcasts.apple.com/us/podcast/69-the-one-with-sap-workloads-sizing-on-azure/id1531372929?i=1000543129830)
