@@ -9,7 +9,53 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 
 Season 2020 - [Can be found here](Season2020.md)
 
+## [#72 - The one with Networking and Security tools for SAP (Evren Buyruk) | SAP on Azure Video Podcast](https://youtu.be/f7bpkx65eYY)
 
+- December 17th 2021
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/72---The-one-with-Networking-and-Security-tools-for-SAP-Evren-Buyruk--SAP-on-Azure-Video-Podcast-e1brftn)
+- [Spotify](https://open.spotify.com/episode/1ZRJqaymjJ5zMKuMbm6QtF?si=piqlI21HRfyMzPHqwtOUTA)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/72-the-one-with-networking-and-security-tools-for/id1531372929?i=1000545271046)
+
+In Episode 72 of the SAP on Azure Video Podcast we talk about the new Resource Group Copy tool for SAP solutions, Updates in Microsoft Sentinel for SAP with lots of new workbooks, Immutable Storage for Blob storage now GA, availability zones in the India central region, restore points for virtual machines, updates to Azure Files NFS v4.1 and Log4J. Then we celebrate Evren Buyruk's birthday in an episode focusing on Microsoft Networking and Security tools for SAP like Azure DDoS protection, Azure Firewall, Azure Application Gateway and Azure Sentinel.
+
+### Video Indexes
+
+- 0:00 Intro
+- 1:18 Resource Group Copy for SAP
+- 3:03 Microsoft Sentinel
+- 5:04 Immutable Storage for Blob Storage
+- 7:51 India Central Availability Zones
+- 10:19 VM restore point
+- 12:45 Updates to Azure Files
+- 14:31 Log4j
+- 16:25 Introducing Evren Buyruk
+- 18:00 Agenda
+- 19:55 SAP on Azure December 2021 Updates
+- 25:00 Security challenges with SAP
+- 27:44 Cloud based security controls for SAP on Azure
+- 33:25 Azure Security Tools and Functions
+- 44:04 Customer requirements for DDoS Protection Enablement
+- 50:20 Azure DDoS Standard
+- 55:54 Customer requirements for Firewall Service
+- 57:41 Azure Firewall As-a-Service solution
+- 1:00:00 Azure Application Gateway As-a-Service
+- 1:06:33 47 Customer requirements for SAP threat monitoring 
+- 1:07:19 SAP threat monitoring solution with Azure Sentinel
+
+### Links
+
+- [Resource Group COPY](https://github.com/Azure/RGCOPY)
+- [Microsoft Sentinel - SAP continuous threat monitoring workbooks](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-sap-continuous-threat-monitoring-workbooks/ba-p/3015630)
+- [Immutable storage with versioning for Blob Storage is now generally available](https://azure.microsoft.com/en-us/updates/immutable-storage-with-versioning-for-blob-storage-is-now-generally-available/)
+- [India Central Availability Zones now generally available](https://azure.microsoft.com/en-us/updates/india-central-availability-zones-now-generally-available/)
+- [Public preview availability of Virtual Machine restore points](https://azure.microsoft.com/en-us/updates/vmrestorepointspreview/)
+- [Updates to Azure Files: NFS v4.1](https://azure.microsoft.com/en-us/blog/updates-to-azure-files-nfs-v41-higher-performance-limits-and-reserved-instance-pricing/)
+- [CVE-2021-44228 - Log4j - MINECRAFT VULNERABLE! (and SO MUCH MORE)](https://www.youtube.com/watch?v=7qoPDq41xhQ)
+- [Guidance for preventing, detecting, and hunting for CVE-2021-44228 Log4j 2 exploitation](https://www.microsoft.com/security/blog/2021/12/11/guidance-for-preventing-detecting-and-hunting-for-cve-2021-44228-log4j-2-exploitation/)
+- [3131047 - [CVE-2021-44228] Central Security Note for Remote Code Execution vulnerability associated with Apache Log4j 2 component](https://launchpad.support.sap.com/#/notes/3131047)
+- [Evren Buyruk](https://www.linkedin.com/in/evren-buyruk-3951297b)
+
+---
 ## [#71 - The one with Bicep and looking at CEE (Jan Tretina) | SAP on Azure Video Podcast](https://youtu.be/UaXYU2JJ4WI)
 
 - December 10th 2021
@@ -17,7 +63,7 @@ Season 2020 - [Can be found here](Season2020.md)
 - [Spotify](https://open.spotify.com/episode/4lzSduJjmyUBxuxCBxRzKs?si=ZGbYFpNvTGWf09xzq0TFhw)
 - [Apple Podcast](https://podcasts.apple.com/us/podcast/71-the-one-with-bicep-and-looking-at-cee-jan-tretina/id1531372929?i=1000544576527)
 
-In Episode 71 of the SAP on Azure Video Podcast we talk about productive SAP S/4HANA Deployments using the SAP Cloud Appliance Library, a scenario with SAP events sent to Azure, part 3 and 4 of the data extraction series using OData and take a look at the ABAPConf. Then we have Jan Tretina joining us from the Central Eastern Europe region talking about customers, partners and challenges in this region. He then shows us how to deploy an SAP system using Azure Bicep. 
+In Episode 71 of the SAP on Azure Video Podcast we talk about productive SAP S/4HANA Deployments using the SAP Cloud Appliance Library, a scenario with SAP events sent to Azure, part 3 and 4 of the data extraction series using OData and take a look at the ABAPConf. Then we have Jan Tretina joining us from the Central Eastern Europe region talking about customers, partners and challenges in this region. He then shows us how to deploy an SAP system using Azure Bicep.
 
 ### Video Indexes
 
