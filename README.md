@@ -9,6 +9,39 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 
 Season 2020 - [Can be found here](Season2020.md)
 
+## [#73 - The one wrapping up 2021 (Jürgen Thomas) | SAP on Azure Video Podcast](https://youtu.be/lx_eSJIgnec)
+
+- December 22nd 2021
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/73---The-one-wrapping-up-2021-Jrgen-Thomas--SAP-on-Azure-Video-Podcast-e1c32pq)
+- [Spotify](https://open.spotify.com/episode/3KyuOxZoY83yDhLJJOjoHw?si=lOUZ3tHMRrafw4vPKaH5TA)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/73-the-one-wrapping-up-2021-j%C3%BCrgen-thomas-sap-on/id1531372929?i=1000545901460)
+
+In the last show of 2021, we wrap up the year with Jürgen Thomas and look back at some of the achievements of SAP on Azure in 2021. Happy Holidays!  
+
+### Video Indexes
+
+- 0:00 Intro
+- 2:15 Test framework on hardware
+- 6:15 High-Availability Configuration / Shared Disks
+- 8:40 release of new hardware / VM types
+- 9:35 new SKUs for Hana large instances with Optane
+- 11:00 customer requirements for HA
+- 11:59 zonal replication for storage
+- 14:00 providing choice to deploy infrastructure
+- 17:00 SAP configuration check tool
+- 18:18 refreshed proximity placement groups concept
+- 23:45 more documentation on Sybase IQ
+- 24:30 supporting Azure services: Monitoring, Backup, DR, ASR
+- 32:28 SAP ILM integration supporting Azure Blob
+- 34:50 Integration to BTP with Private Link
+- 37:33 48:15 working with teams @ SAP
+- 40:20 Outlook in 2022 and closing
+
+### Links
+
+
+--
+
 ## [#72 - The one with Networking and Security tools for SAP (Evren Buyruk) | SAP on Azure Video Podcast](https://youtu.be/f7bpkx65eYY)
 
 - December 17th 2021
