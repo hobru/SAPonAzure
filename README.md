@@ -6,8 +6,42 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 - Audio-Podcast available via https://anchor.fm/saponazure 
 - [On Spotify](https://open.spotify.com/show/4XdnWdqqjRcQbBYg3hmbGI)
 - [Apple Podcast](https://podcasts.apple.com/us/podcast/unofficial-sap-on-azure-podcast/id1531372929)
-
+- [SAP on Azure Podcast](https://www.SAPonAzurePodcast.de)
+- 
 Season 2020 - [Can be found here](Season2020.md)
+
+## [#74 - The one Looking back at the content created so far (The three of us) | SAP on Azure Video Podcast](https://youtu.be/AFnGM3Ai6Vg)
+
+- January 7th 2022
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/74---The-one-Looking-back-at-the-content-created-so-far-The-three-of-us--SAP-on-Azure-Video-Podcast-e1cl9d7)
+- [Spotify](https://open.spotify.com/episode/73HKpfWj2N0GU1812AVVqE?si=b93C2FNXSEuME7MGIVpoxg)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/74-the-one-looking-back-at-the-content-created-so/id1531372929?i=1000547235284)
+
+In Episode 74 of the SAP on Azure Video Podcast -- the first one in 2022 -- we talk about how to copy an SAP system using the resource group copy tool, episode 56 of the Coffee Corner Radio about Low-code / no-code and SAP, Azure and SAP on Azure Learning, Secure SAP on Azure Airlift and the webinar Reihe SAP on Azure in German. Then we look back at the content created in the last 70 episodes: focusing on infrastructure, integration and more.  
+
+### Video Indexes
+
+- 0:00 Intro
+- 1:18 Copy SAP Systems
+- 2:16 Coffee Corner Radio
+- 3:29 Learning SAP on Azure
+- 4:42 Secure SAP on Microsoft Azure Airlift
+- 6:00 Webinar Reihe - SAP on Azure
+- 8:05 Episodes focusing on Integration
+- 21:10 Infrastructure episodes
+- 28:25 Strategic and customer focusing episodes 
+- 38:46 Wrapping up
+
+### Links
+
+- [How does Azure Development copy SAP systems?](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/how-does-azure-development-copy-sap-systems/ba-p/3044955)
+- [Coffee Corner Radio - Episode 56 - Low Code/No Code Platforms with Matthias Steiner and Holger Bruchelt](https://anchor.fm/sap-community-podcast/episodes/Episode-56---Low-CodeNo-Code-Platforms-with-Matthias-Steiner-and-Holger-Bruchelt-e1bh0k0)
+- [Azure and SAP on Azure Learning](https://saponazure.dev/day-0-planning-and-preparation)
+- [Secure SAP on Microsoft Azure Airlift](https://saponazure.eventcore.com/)
+- [​​​​​​​​​​​​​​Webinar-Reihe: SAP on Azure](https://www.addon.de/de/newsroom/events/eis18-sap-on-azure)
+
+--
+
 
 ## [#73 - The one wrapping up 2021 (Jürgen Thomas) | SAP on Azure Video Podcast](https://youtu.be/lx_eSJIgnec)
 
