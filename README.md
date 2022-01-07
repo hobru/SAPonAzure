@@ -6,8 +6,13 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 - Audio-Podcast available via https://anchor.fm/saponazure 
 - [On Spotify](https://open.spotify.com/show/4XdnWdqqjRcQbBYg3hmbGI)
 - [Apple Podcast](https://podcasts.apple.com/us/podcast/unofficial-sap-on-azure-podcast/id1531372929)
+<<<<<<< HEAD
 - [SAP on Azure Podcast](https://www.SAPonAzurePodcast.de)
 - 
+=======
+- [Homepage, www.SAPonAzurePodcast.de](https://www.SAPonAzurePodcast.de)
+
+>>>>>>> b33b3972e27ed686b3b1164bf24305a60d87a8dc
 Season 2020 - [Can be found here](Season2020.md)
 
 ## [#74 - The one Looking back at the content created so far (The three of us) | SAP on Azure Video Podcast](https://youtu.be/AFnGM3Ai6Vg)
