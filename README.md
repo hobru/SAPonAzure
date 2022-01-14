@@ -10,6 +10,63 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 
 Season 2020 - [Can be found here](Season2020.md)
 
+## [#75 - The one using SAP Deployment Automation via DevOps (Michael Mergell, Kimmo Forss) | SAP on Azure Video Podcast](https://youtu.be/MA6BYiqXC-U)
+
+- January 13th 2022
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/75---The-one-using-SAP-Deployment-Automation-via-DevOps-Michael-Mergell--Kimmo-Forss--SAP-on-Azure-Video-Podcast-e1cujh4)
+- [Spotify](https://open.spotify.com/episode/0bGH3qrBdBYOqoZPuKQxlK?si=_tVCZLAlQWWCmzXzGnjPSQ)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/75-the-one-using-sap-deployment-automation-via-devops/id1531372929?i=1000547873744)
+
+In Episode 75 of the SAP on Azure Video Podcast we talk about a new SAP Private Link Landing page from Martin Pankraz, way to connect to other DBs on Azure via Private Link, Cloud Integration with Commerce Azure Blob Storage using REST API, How to install SAP systems in more than two cluster nodes, STMS Slowness during TR import in Windows Cluster Environment, the conclusion of the "Extracting SAP data using OData" series by Bartosz Jarkowski, Doosans collaboration with SAP and Microsoft on their SAP SuccessFactors and Teams integration and the Azure Friday episode on Extend your SAP applications and data to innovate on Azure. Then we have Michael Mergell and Kimmo Forss joining us to talk about using the SAP Deployment Automation Framework via DevOps.  
+
+### Video Indexes
+
+- 0:00 Intro
+- 1:10 SAP Private Link Overview
+- 2:06 Connecting other DBs via PLS
+- 3:03 Cloud Integration with Azure Blob Storage
+- 3:58 Install SAP with more than two nodes
+- 7:06 STMS Slowness
+- 8:25 Doosan, SAP, MSFT - SFSF & Teams
+- 9:18 AzureFriday - Extend SAP applications
+- 10:03 Extracting SAP data using OData
+- 11:10 Introducing Michael and Kimmo
+- 12:03 SAP Deployment Automation Framework DevOps
+- 13:42 How to setup the scenario?
+- 15:37 Setup DevOps project
+- 16:55 Import from GitHub
+- 18:06 Setup service connections
+- 19:30 Create Variables
+- 23:25 Create Azure Piplines
+- 28:00 Run first control plane pipeline
+- 29:50 Looking at deployments
+- 33:29 Downloading SAP software
+- 42:20 Configuration & Installation
+- 44:55 Install Database
+- 47:10 Fetching SAP installation logs
+- 49:25 Upcoming enhancements
+- 53:14 How to get started
+
+### Links
+
+- [Getting started with SAP BTP Private Link](https://blogs.sap.com/2021/12/29/getting-started-with-btp-private-link-service-for-azure/)
+- [Extend your SAP applications and data to innovate on Azure | Azure Friday](https://www.youtube.com/watch?v=72kbjv0GJAY)
+- [Cloud Integration with Commerce Azure Blob Storage using REST API – Part 1](https://blogs.sap.com/2021/07/04/cloud-integration-with-commerce-azure-blob-storage-using-rest-api/)
+- [Cloud Integration with Commerce Azure Blob Storage using REST API – Part 2](https://blogs.sap.com/2021/12/26/cloud-integration-with-commerce-azure-blob-storage-using-rest-api-part-2)
+- [[DOOSAN | CES 2022 | Discussion] Delightful Digital Workplace](https://www.youtube.com/watch?v=S6fb4cIWzU4)
+- [BTP private linky swear with Azure – connecting to cheap PaaS DBs with Private Link Service](https://blogs.sap.com/2022/01/12/btp-private-linky-swear-with-azure-connecting-to-cheap-paas-dbs-with-private-link-service/)
+- [Extracting SAP data using OData - Part 1 - The First Extraction](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/extracting-sap-data-using-odata-part-1-the-first-extraction/ba-p/2841635)
+- [Extracting SAP data using OData - Part 2 - All About Parameters](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/extracting-sap-data-using-odata-part-2-all-about-parameters/ba-p/2849518)
+- [Extracting SAP data using OData - Part 3 - Metadata store](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/extracting-sap-data-using-odata-part-3-metadata-store/ba-p/2849544)
+- [Extracting SAP data using OData - Part 4 - Handling large volumes of data](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/extracting-sap-data-using-odata-part-4-handling-large-volumes-of/ba-p/2849727)
+- [Extracting SAP data using OData - Part 5 - Filter and Select](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/extracting-sap-data-using-odata-part-5-filter-and-select/ba-p/2849814)
+- [Extracting SAP data using OData - Part 6 - Introduction to delta extraction](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/extracting-sap-data-using-odata-part-6-introduction-to-delta/ba-p/2860488)
+- [Extracting SAP data using OData - Part 7 - Delta extraction using SAP Extractors and CDS Views](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/extracting-sap-data-using-odata-part-7-delta-extraction-using/ba-p/2865383)
+- [GitHub: SAP OData Services with Synapse Pipelines](https://github.com/BJarkowski/synapse-pipelines-sap-odata-public)
+- [GitHub: SAP Automation](https://github.com/azure/sap-automation)
+
+--
+
 ## [#74 - The one Looking back at the content created so far (The three of us) | SAP on Azure Video Podcast](https://youtu.be/AFnGM3Ai6Vg)
 
 - January 7th 2022
