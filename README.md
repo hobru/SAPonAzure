@@ -10,6 +10,42 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 
 Season 2020 - [Can be found here](Season2020.md)
 
+## [#76 - The one with the Quality Check Tool for SAP on Azure (Philipp Leitenbauer) | SAP on Azure Video Podcast](https://youtu.be/OCOUtzRd60s)
+
+- January 20th 2022
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/76---The-one-with-the-Quality-Check-Tool-for-SAP-on-Azure-Philipp-Leitenbauer--SAP-on-Azure-Podcast-e1d7pp3)
+- [Spotify](https://open.spotify.com/episode/3hrHyMzpia8b7sL99qGS0d?si=UztJXIGCSZ-EbYQSObfJqg)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/the-one-with-the-quality-check-tool-for-sap-on/id1531372929?i=1000548521281)
+
+In Episode 76 of the SAP on Azure Video Podcast we talk about the next virtual datacenter tour, working with Azure Machine Learning, Switching Active/Pasive Deployments across Availability Zones, upgrading Load Balancer SKU through PowerShell script, Azure Ultra Disk Storage in West US 3 and upcoming Microsoft Virtual Training Days. Then we have Philipp Leitenbauer joining us again to talk about the latest on the SAP on Azure Quality Check tool. 
+
+### Video Indexes
+
+- 0:00 Intro
+- 0:58 Virtual Datacenter tour
+- 1:43 Understand your suppliers better with Azure Machine Learning
+- 2:52 Switching Active/Passive Deployment across Availability Zones
+- 7:40 Load Balancer SKU upgrade through PowerShell script
+- 8:42 Azure Ultra Disk Storage in West US 3
+- 9:30 Microsoft Virtual Training Days
+- 10:35 Introduction Philipp Leitenbauer
+- 12:31 Quality Check v2
+- 14:30 Demo 
+- 23:15 The Check JSON file
+- 33:11 Running an example
+
+### Links
+
+- [Microsoft Datacenter Tour: Virtual Experience](https://mktoevents.com/Microsoft+Event/316932/157-GQE-382)
+- [Your SAP on Azure – Part 27 – Understand your suppliers better with Azure Machine Learning](https://blogs.sap.com/2022/01/19/your-sap-on-azure-part-27-understand-your-suppliers-better-with-azure-machine-learning/)
+- [SAP Application Server switch in Active/Passive Deployment across Availability Zones](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/sap-application-server-switch-in-active-passive-deployment/ba-p/3049967)
+- [Generally available: Load Balancer SKU upgrade through PowerShell script](https://azure.microsoft.com/en-us/updates/load-balancer-sku-upgrade-now-available-through-powershell-script-2/)
+- [Azure Ultra Disk Storage is now generally available in West US 3](https://azure.microsoft.com/en-us/updates/azure-ultra-disk-storage-is-now-generally-available-in-west-us-3/)
+- [free Microsoft Virtual Training Days](https://www.microsoft.com/en-ie/training-days/azure/fundamentals)
+- [GitHub Repo for Quality Check Tool](https://github.com/Azure/SAP-on-Azure-Scripts-and-Utilities/tree/main/QualityCheck)
+
+---
+
 ## [#75 - The one using SAP Deployment Automation via DevOps (Michael Mergell, Kimmo Forss) | SAP on Azure Video Podcast](https://youtu.be/MA6BYiqXC-U)
 
 - January 13th 2022
