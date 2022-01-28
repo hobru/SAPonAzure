@@ -10,6 +10,50 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 
 Season 2020 - [Can be found here](Season2020.md)
 
+## [#77 - The one with DMO to Azure (Mathias Klein, Takayuki Hoshino) | SAP on Azure Video Podcast](https://youtu.be/CvpzjODvXg0)
+
+- January 26th 2022
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/77---The-one-with-DMO-to-Azure-Mathias-Klein--Takayuki-Hoshino--SAP-on-Azure-Video-Podcast-e1dhl67)
+- [Spotify](https://open.spotify.com/episode/4WYZDYFPS4GiH1J7JnxC4h?si=vpJE3MBCQ_idPjZQQW4VNw)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/77-the-one-with-dmo-to-azure-mathias-klein/id1531372929?i=1000549185606)
+
+In episode 77 of our SAP on Azure video podcast we talk about SAP Cloud Portal integration into Teams, new features for AZure NetApp Files, an overview of DDoS protections on Azure, saving with on-premises licenses and an upcoming Event Driven Architecture Symposium. Then we have the pleasure to welcome our first external guest: Mathias Klein from SAP joins us together with Taka Hoshino from our program management team at Microsoft to talk about the Database Migration Option (DMO) to Azure, or Converting from SAP ERP on Premise to SAP S/4HANA on Microsoft Azure. Learn how you can migrate and convert your on-premises SAP ECC system to S/4HANA on Azure in one go. 
+
+
+### Video Indexes
+
+- 0:00 Intro
+- 1:02 Integrate Cloud Portal in Teams
+- 2:34 Azure NetApp Files new features
+- 3:08 DDoS Protection overview
+- 4:05 Rightsize on Azure
+- 4:44 Saving with on-premises licenses
+- 5:55 Event Driven Architecture Symposium
+- 7:20 Intro Mathias Klein
+- 8:38 Intro Taka Hoshino
+- 10:05 Project Scotty 
+- 13:54 Consideration for DMO Datacenter move
+- 16:40 Shadow system on target HANA DB
+- 17:24 Whitepaper
+- 18:50 Connectivity requirements
+- 21:10 Comparing to DMO System Move
+- 24:00 DMO with System move - Sequential and parallel
+- 26:24 Latency and bandwidth considerations
+- 28:17 Setting up the target landscape
+- 31:30 Roadmap and outlook
+
+### Links
+
+- [Public Preview: Azure NetApp Files new features](https://azure.microsoft.com/en-us/updates/public-preview-azure-netapp-files-features/)
+- [Azure DDoS Protection—2021 Q3 and Q4 DDoS attack trends](https://azure.microsoft.com/en-gb/blog/azure-ddos-protection-2021-q3-and-q4-ddos-attack-trends/)
+- [ASAPIO Symposium 2022 - Event-Driven Architecture for SAP Customers](https://asapio.com/eda-symposium)
+- [Integrate SAP Cloud Portal and Launchpad Service into Microsoft Teams including SSO](https://blogs.sap.com/2022/01/26/integrate-sap-cloud-portal-and-launchpad-service-into-microsoft-teams-including-sso/)
+- [Rightsize to maximize your cloud investment with Microsoft Azure](https://azure.microsoft.com/en-gb/blog/rightsize-to-maximize-your-cloud-investment-with-microsoft-azure/)
+- [Save big by using your on-premises licenses on Azure](https://azure.microsoft.com/en-us/blog/save-big-by-using-your-onpremises-licenses-on-azure/)
+- [Converting from SAP ERP on Premise to SAP S/4HANA on Microsoft Azure](https://www.sap.com/documents/2021/12/a8fcb608-097e-0010-bca6-c68f7e60039b.html)
+
+---
+
 ## [#76 - The one with the Quality Check Tool for SAP on Azure (Philipp Leitenbauer) | SAP on Azure Video Podcast](https://youtu.be/OCOUtzRd60s)
 
 - January 20th 2022
