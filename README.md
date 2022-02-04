@@ -10,6 +10,47 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 
 Season 2020 - [Can be found here](Season2020.md)
 
+## [#78 - The one with 25+ years of SAP & Microsoft (Hans Reutter) | SAP on Azure Video Podcast](https://youtu.be/AtUNu9VhKU4)
+
+- February 3rd 2022
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/77---The-one-with-DMO-to-Azure-Mathias-Klein--Takayuki-Hoshino--SAP-on-Azure-Video-Podcast-e1dhl67)
+- [Spotify](https://open.spotify.com/episode/4WYZDYFPS4GiH1J7JnxC4h?si=vpJE3MBCQ_idPjZQQW4VNw)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/77-the-one-with-dmo-to-azure-mathias-klein/id1531372929?i=1000549185606)
+
+In episode 78 of our SAP on Azure video podcast we talk about the Microsoft Digital Defense Report, currently also featured in the Security Unlocked podcast, Teacher provisioned virtual labs and the announcement from SAP and Arvato systems to run a sovereign Cloud Platform for the Public Sector in Germany. Then we are honored to have Hans Reutter back on the show. Hans takes us down memory lane and looks back at more than 25 years at Microsoft working with SAP.
+
+
+### Video Indexes
+
+- 0:00 Intro
+- 1:48 Security Unlocked
+- 2:18 Microsoft Digital Defense Report
+- 4:10 Teacher-provisioned virtual labs in Azure
+- 5:36 Sovereign Cloud Platform for Public Sector in Germany
+- 8:38 Introducing Hans Reutter
+- 9:58 Make SAP run on Windows and SQL Server
+- 10:55 SQL 6.0
+- 13:55 Baseline testing SQL with SAP
+- 15:07 working with SAP-IT
+- 17:04 Microsoft Digital improving SAP + Microsoft
+- 19:20 Running SAP on Azure since 2018
+- 22:29 Disaster Recovery with SAP 
+- 26:27 Benefits from running SAP on Azure
+- 29:25 Constant innovation in the cloud
+- 32:05 Publishing lessons learned
+- 35:30 Migration non-events stand out 
+
+
+### Links
+
+- [Microsoft Digital Defense Report - Microsoft Security](http://aka.ms/mddr)
+- [Security Unlocked—A new podcast exploring the people and AI that power Microsoft Security solutions](https://www.microsoft.com/security/blog/2020/10/14/security-unlocked-a-new-podcast-exploring-the-people-and-ai-that-power-microsoft-security-solutions/)
+- [https://news.sap.com/germany/2022/02/cloud-plattform-public-sector-arvato/](https://news.sap.com/germany/2022/02/cloud-plattform-public-sector-arvato)
+- [Teacher-provisioned virtual labs in Azure](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/devops/teacher-provisioned-virtual-labs-azure)
+- [Hans on YouTube](https://www.youtube.com/c/SeattleRetroGuy)
+
+---
+
 ## [#77 - The one with DMO to Azure (Mathias Klein, Takayuki Hoshino) | SAP on Azure Video Podcast](https://youtu.be/CvpzjODvXg0)
 
 - January 26th 2022
