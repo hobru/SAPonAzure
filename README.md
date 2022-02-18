@@ -11,9 +11,67 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 Season 2021 - [Can be found here](Season2021.md)
 Season 2020 - [Can be found here](Season2020.md)
 
+## [#80 - The one with SAP Fiori, Azure App Gateway and AAD (Dennis Padia) | SAP on Azure Video Podcast](https://youtu.be/EpGL9uwuOes)
+
+- February 17th 2022
+- [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/80---The-one-with-SAP-Fiori--Azure-App-Gateway-and-AAD-Dennis-Padia--SAP-on-Azure-Video-Podcast-e1eiuk3)
+- [Spotify](https://open.spotify.com/episode/0KQaLCJMIddmSPo5rYZhxK?si=q89wpPIGR22ahdxa-MH1vQ)
+- [Apple Podcast](https://podcasts.apple.com/us/podcast/80-the-one-with-sap-fiori-azure-app-gateway-and/id1531372929?i=1000551537233)
+
+In episode 80 of our SAP on Azure video podcast we talk about a new SAP and Microsoft landing page, a SAP and Microsoft blog post gallery by Martin Pankraz, part 5 of Martin Raepples principal propagation blog post looking into Azure API Management, Power Virtual Agent and SAP, look at Kerberos authentication with Azure NetApp Files, a reminder on how to setup SSO with Azure Active Directory Domain services and SAP GUI and part 4 and 5 of Martin Fricks SAP & Teams integration series. Then we go deep with Dennis Padia who talks about internet facing SAP Fiori apps with Azure Application Gateway and Azure AD SSO configuration.
+
+### Video Indexes
+
+- 0:00 Intro
+- 0:55 How to get started with SAP and Microsoft
+- 2:33 Integration Ninja Cats
+- 3:45 Principal propagation in a multi-cloud solution between Microsoft Azure and SAP Business Technology Platform (BTP), Part V Production readiness with unified API- and infrastructure management
+- 5:40 Implementing Azure NetApp Files with Kerberos
+- 8:34 Your SAP on Azure – Part 8 – Single Sign-On using Azure AD Domain Services
+- 9:30 SAP & MS Teams
+- 10:37 Introducing Dennis Padia
+- 11:22 SAP Fiori Deployment Options
+- 14:05 SAP Fiori Deployment Recommendation
+- 17:29 Internet Facing SAP Fiori Architecture on Azure
+- 26:08 Insight about exposing SAP Fiori apps to the Internet in Azure 1/2
+- 27:04 When Application Gateway, why SAP Web Dispatcher? 
+- 29:32 Insight about exposing SAP Fiori apps to the Internet in Azure 2/2
+- 34:48 Application Gateway and its configuration options
+- 37:32 v1 SKU vs v2 SKU
+- 40:56 Web Application Firewall on Application Gateway
+- 42:50 Pre-requisites
+- 45:15 Application Gateway WAF v2 Setup for SAP Fiori
+- 48:24 Demo
+- 55:20 Demo Test configuration
+- 56:42 Testing Proxy Configuration
+- 58:29 Preserve Host Header
+- 1:00:35 validating Demo accessing SAP Fiori
+- 1:01:40 SAML SSO with Azure AD Architecture for SAP Fiori
+- 1:02:20 SAML SSO with Azure AD Configuration
+- 1:09:35 Maintaining multiple URLs
+- 1:12:34 Troubleshooting WAF Modes
+- 1:15:58 References
+
+### Links
+
+-  [[SAP & MS Teams] 1 – Preface and scenario introduction](https://blogs.sap.com/2022/02/03/sap-ms-teams-1-preface-and-scenario-introduction)
+-  [How to get started with SAP and Microsoft](https://blogs.sap.com/2022/02/11/how-to-get-started-with-sap-and-microsoft/)
+-  [How to get started with SAP and Microsoft integration scenarios](https://github.com/MartinPankraz/ninja-unicorn)
+-  [Integration Ninja Cats](https://martinpankraz.github.io/ninja-unicorn/)
+-  [Principal propagation in a multi-cloud solution between Microsoft Azure and SAP Business Technology Platform (BTP), Part V: Production readiness with unified API- and infrastructure management](https://blogs.sap.com/2022/02/13/principal-propagation-in-a-multi-cloud-solution-between-microsoft-azure-and-sap-business-technology-platform-btp-part-v-production-readiness-with-unified-api-and-infrastructure-management/)
+-  [Implementing Azure NetApp Files with Kerberos](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/implementing-azure-netapp-files-with-kerberos/ba-p/3142010)
+-  [Your SAP on Azure – Part 8 – Single Sign-On using Azure AD Domain Services](https://blogs.sap.com/2018/08/03/your-sap-on-azure-part-8-single-sign-on-using-azure-ad-domain-services/)
+-  [[SAP & MS Teams] 4 – SAP BTP subaccount configuration and test users](https://blogs.sap.com/2022/02/14/sap-ms-teams-4-sap-btp-subaccount-configuration-and-test-users/)
+-  [[SAP & MS Teams] 5 – SAP SuccessFactors instance setup](https://blogs.sap.com/2022/02/17/sap-ms-teams-5-sap-successfactors-instance-setup/)
+-  [SAP on Azure: Load Balancing Web Application Servers for SAP BOBI using Azure Application Gateway](https://blogs.sap.com/2020/09/17/sap-on-azure-load-balancing-web-application-servers-for-sap-bobi-using-azure-application-gateway/)
+-  [SAP on Azure: Single Sign On Configuration using SAML and Azure Active Directory for Public and Internal URLs](https://blogs.sap.com/2020/12/10/sap-on-azure-single-sign-on-configuration-using-saml-and-azure-active-directory-for-public-and-internal-urls/)
+-  [SAP on Azure: Azure Application Gateway Web Application Firewall (WAF) v2 Setup for Internet facing SAP Fiori Apps](https://blogs.sap.com/2020/12/03/sap-on-azure-application-gateway-web-application-firewall-waf-v2-setup-for-internet-facing-sap-fiori-apps/)
+-  [Considerations and Recommendations for Internet-facing Fiori apps](https://blogs.sap.com/2017/12/15/considerations-and-recommendations-for-internet-facing-fiori-apps/)
+
+---
 ## [#79 - The one with news around Azure NetApp Files (Geert van Teylingen) | SAP on Azure Video Podcast](https://youtu.be/bW6rrnzRen0)
 
-- February 3rd 2022
+- February 10th 2022
 - [Audio Podcast on Anchor](https://anchor.fm/saponazure/episodes/79---The-one-with-news-around-Azure-NetApp-Files-Geert-van-Teylingen--SAP-on-Azure-Video-Podcast-e1e8d8q)
 - [Spotify](https://open.spotify.com/episode/09uwRk9pLoFnterZLIKd6b?si=ClQ4n5sBQES07zvgfr6G_Q)
 - [Apple Podcast](https://podcasts.apple.com/us/podcast/79-the-one-with-news-around-azure-netapp-files-geert/id1531372929?i=1000550781994)
