@@ -11,6 +11,8 @@ Content related to the unofficial SAP on Azure YouTube Channel, http://youtube.c
 Season 2021 - [Can be found here](Season2021.md)
 Season 2020 - [Can be found here](Season2020.md)
 
+# For the latest episode summaries please head over to the [SAP on Azure Podcast Website](http://saponazurepodcast.de/)
+
 ## [#80 - The one with SAP Fiori, Azure App Gateway and AAD (Dennis Padia) | SAP on Azure Video Podcast](https://youtu.be/EpGL9uwuOes)
 
 - February 17th 2022
