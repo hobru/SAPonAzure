@@ -1,0 +1,828 @@
+openapi: 3.0.3
+info:
+  title: SWAPI - The Star Wars API (swapi.info)
+  description: >-
+    OpenAPI specification for the swapi.info Star Wars API. This is a static,
+    read-only variant of the original SWAPI. Unlike the original swapi.dev, the
+    collection endpoints return **plain JSON arrays** (no pagination wrapper).
+    All resource attributes are returned as strings unless otherwise noted, and
+    relationships are expressed as fully-qualified URLs to related resources.
+  version: 1.0.0
+  license:
+    name: MIT
+    url: https://github.com/swapi-graphql/swapi
+servers:
+  - url: https://swapi.info/api
+    description: swapi.info production server
+security: []
+tags:
+  - name: root
+    description: API root / resource discovery
+  - name: films
+    description: Star Wars films
+  - name: people
+    description: People / characters
+  - name: planets
+    description: Planets
+  - name: species
+    description: Species
+  - name: vehicles
+    description: Vehicles
+  - name: starships
+    description: Starships
+paths:
+  /:
+    get:
+      operationId: getRoot
+      summary: List available resources
+      description: Returns a map of resource names to their collection URLs.
+      tags:
+        - root
+      responses:
+        '200':
+          description: Map of resource name to collection URL.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Root'
+
+  /films:
+    get:
+      operationId: listFilms
+      summary: List all films
+      tags:
+        - films
+      responses:
+        '200':
+          description: An array of films.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Film'
+  /films/{id}:
+    get:
+      operationId: getFilm
+      summary: Get a film by ID
+      tags:
+        - films
+      parameters:
+        - $ref: '#/components/parameters/ResourceId'
+      responses:
+        '200':
+          description: A single film.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Film'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /people:
+    get:
+      operationId: listPeople
+      summary: List all people
+      tags:
+        - people
+      responses:
+        '200':
+          description: An array of people.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Person'
+  /people/{id}:
+    get:
+      operationId: getPerson
+      summary: Get a person by ID
+      tags:
+        - people
+      parameters:
+        - $ref: '#/components/parameters/ResourceId'
+      responses:
+        '200':
+          description: A single person.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Person'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /planets:
+    get:
+      operationId: listPlanets
+      summary: List all planets
+      tags:
+        - planets
+      responses:
+        '200':
+          description: An array of planets.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Planet'
+  /planets/{id}:
+    get:
+      operationId: getPlanet
+      summary: Get a planet by ID
+      tags:
+        - planets
+      parameters:
+        - $ref: '#/components/parameters/ResourceId'
+      responses:
+        '200':
+          description: A single planet.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Planet'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /species:
+    get:
+      operationId: listSpecies
+      summary: List all species
+      tags:
+        - species
+      responses:
+        '200':
+          description: An array of species.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Species'
+  /species/{id}:
+    get:
+      operationId: getSpecies
+      summary: Get a species by ID
+      tags:
+        - species
+      parameters:
+        - $ref: '#/components/parameters/ResourceId'
+      responses:
+        '200':
+          description: A single species.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Species'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /vehicles:
+    get:
+      operationId: listVehicles
+      summary: List all vehicles
+      tags:
+        - vehicles
+      responses:
+        '200':
+          description: An array of vehicles.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Vehicle'
+  /vehicles/{id}:
+    get:
+      operationId: getVehicle
+      summary: Get a vehicle by ID
+      tags:
+        - vehicles
+      parameters:
+        - $ref: '#/components/parameters/ResourceId'
+      responses:
+        '200':
+          description: A single vehicle.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Vehicle'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /starships:
+    get:
+      operationId: listStarships
+      summary: List all starships
+      tags:
+        - starships
+      responses:
+        '200':
+          description: An array of starships.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Starship'
+  /starships/{id}:
+    get:
+      operationId: getStarship
+      summary: Get a starship by ID
+      tags:
+        - starships
+      parameters:
+        - $ref: '#/components/parameters/ResourceId'
+      responses:
+        '200':
+          description: A single starship.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Starship'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /films/schema:
+    get:
+      operationId: getFilmSchema
+      summary: Get the JSON Schema for a film
+      tags:
+        - films
+      responses:
+        '200':
+          description: JSON Schema (draft-04) describing the film resource.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JsonSchema'
+  /people/schema:
+    get:
+      operationId: getPersonSchema
+      summary: Get the JSON Schema for a person
+      tags:
+        - people
+      responses:
+        '200':
+          description: JSON Schema (draft-04) describing the person resource.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JsonSchema'
+  /planets/schema:
+    get:
+      operationId: getPlanetSchema
+      summary: Get the JSON Schema for a planet
+      tags:
+        - planets
+      responses:
+        '200':
+          description: JSON Schema (draft-04) describing the planet resource.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JsonSchema'
+  /species/schema:
+    get:
+      operationId: getSpeciesSchema
+      summary: Get the JSON Schema for a species
+      tags:
+        - species
+      responses:
+        '200':
+          description: JSON Schema (draft-04) describing the species resource.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JsonSchema'
+  /vehicles/schema:
+    get:
+      operationId: getVehicleSchema
+      summary: Get the JSON Schema for a vehicle
+      tags:
+        - vehicles
+      responses:
+        '200':
+          description: JSON Schema (draft-04) describing the vehicle resource.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JsonSchema'
+  /starships/schema:
+    get:
+      operationId: getStarshipSchema
+      summary: Get the JSON Schema for a starship
+      tags:
+        - starships
+      responses:
+        '200':
+          description: JSON Schema (draft-04) describing the starship resource.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JsonSchema'
+
+components:
+  parameters:
+    ResourceId:
+      name: id
+      in: path
+      required: true
+      description: Numeric identifier of the resource.
+      schema:
+        type: integer
+        minimum: 1
+      example: 1
+
+  responses:
+    NotFound:
+      description: The requested resource was not found.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+
+  schemas:
+    Root:
+      type: object
+      properties:
+        films:
+          type: string
+          format: uri
+        people:
+          type: string
+          format: uri
+        planets:
+          type: string
+          format: uri
+        species:
+          type: string
+          format: uri
+        vehicles:
+          type: string
+          format: uri
+        starships:
+          type: string
+          format: uri
+      required:
+        - films
+        - people
+        - planets
+        - species
+        - vehicles
+        - starships
+
+    Error:
+      type: object
+      properties:
+        detail:
+          type: string
+          description: Human-readable error message.
+          example: Not found
+
+    JsonSchema:
+      type: object
+      description: >-
+        A JSON Schema (draft-04) document describing the shape of a resource,
+        as returned by the /{resource}/schema endpoints.
+      additionalProperties: true
+      properties:
+        $schema:
+          type: string
+          format: uri
+        type:
+          type: string
+        properties:
+          type: object
+          additionalProperties: true
+        required:
+          type: array
+          items:
+            type: string
+
+    Film:
+      type: object
+      description: A single Star Wars film.
+      required:
+        - title
+        - episode_id
+        - opening_crawl
+        - director
+        - producer
+        - release_date
+        - characters
+        - planets
+        - starships
+        - vehicles
+        - species
+        - created
+        - edited
+        - url
+      properties:
+        title:
+          type: string
+        episode_id:
+          type: integer
+        opening_crawl:
+          type: string
+        director:
+          type: string
+        producer:
+          type: string
+        release_date:
+          type: string
+          format: date
+        characters:
+          type: array
+          items:
+            type: string
+            format: uri
+          description: URLs of people who are in this film.
+        planets:
+          type: array
+          items:
+            type: string
+            format: uri
+        starships:
+          type: array
+          items:
+            type: string
+            format: uri
+        vehicles:
+          type: array
+          items:
+            type: string
+            format: uri
+        species:
+          type: array
+          items:
+            type: string
+            format: uri
+        created:
+          type: string
+          format: date-time
+        edited:
+          type: string
+          format: date-time
+        url:
+          type: string
+          format: uri
+
+    Person:
+      type: object
+      description: An individual person or character within the Star Wars universe.
+      required:
+        - name
+        - height
+        - mass
+        - hair_color
+        - skin_color
+        - eye_color
+        - birth_year
+        - gender
+        - homeworld
+        - films
+        - species
+        - vehicles
+        - starships
+        - created
+        - edited
+        - url
+      properties:
+        name:
+          type: string
+        height:
+          type: string
+          description: Height in centimetres. May be "unknown".
+        mass:
+          type: string
+          description: Mass in kilograms. May be "unknown".
+        hair_color:
+          type: string
+        skin_color:
+          type: string
+        eye_color:
+          type: string
+        birth_year:
+          type: string
+          description: Birth year in BBY/ABY notation. May be "unknown".
+        gender:
+          type: string
+          description: 'Gender: "male", "female", "n/a", "hermaphrodite" or "unknown".'
+        homeworld:
+          type: string
+          format: uri
+          description: URL of the planet this person was born on.
+        films:
+          type: array
+          items:
+            type: string
+            format: uri
+        species:
+          type: array
+          items:
+            type: string
+            format: uri
+        vehicles:
+          type: array
+          items:
+            type: string
+            format: uri
+        starships:
+          type: array
+          items:
+            type: string
+            format: uri
+        created:
+          type: string
+          format: date-time
+        edited:
+          type: string
+          format: date-time
+        url:
+          type: string
+          format: uri
+
+    Planet:
+      type: object
+      description: A large mass, planet or planetoid in the Star Wars universe.
+      required:
+        - name
+        - rotation_period
+        - orbital_period
+        - diameter
+        - climate
+        - gravity
+        - terrain
+        - surface_water
+        - population
+        - residents
+        - films
+        - created
+        - edited
+        - url
+      properties:
+        name:
+          type: string
+        rotation_period:
+          type: string
+          description: Hours it takes for this planet to complete a single rotation.
+        orbital_period:
+          type: string
+          description: Days it takes for this planet to orbit its local star.
+        diameter:
+          type: string
+          description: Diameter of this planet in kilometres.
+        climate:
+          type: string
+        gravity:
+          type: string
+          description: Gravity level relative to standard gravity.
+        terrain:
+          type: string
+        surface_water:
+          type: string
+          description: Percentage of the planet surface covered by water.
+        population:
+          type: string
+          description: Average population of sentient beings. May be "unknown".
+        residents:
+          type: array
+          items:
+            type: string
+            format: uri
+        films:
+          type: array
+          items:
+            type: string
+            format: uri
+        created:
+          type: string
+          format: date-time
+        edited:
+          type: string
+          format: date-time
+        url:
+          type: string
+          format: uri
+
+    Species:
+      type: object
+      description: A type of person or character within the Star Wars universe.
+      required:
+        - name
+        - classification
+        - designation
+        - average_height
+        - skin_colors
+        - hair_colors
+        - eye_colors
+        - average_lifespan
+        - homeworld
+        - language
+        - people
+        - films
+        - created
+        - edited
+        - url
+      properties:
+        name:
+          type: string
+        classification:
+          type: string
+          description: e.g. "mammal", "reptile".
+        designation:
+          type: string
+          description: e.g. "sentient".
+        average_height:
+          type: string
+          description: Average height in centimetres.
+        skin_colors:
+          type: string
+          description: Comma-separated list of common skin colours.
+        hair_colors:
+          type: string
+          description: Comma-separated list of common hair colours.
+        eye_colors:
+          type: string
+          description: Comma-separated list of common eye colours.
+        average_lifespan:
+          type: string
+          description: Average lifespan in years. May be "unknown" or "indefinite".
+        homeworld:
+          type: string
+          format: uri
+          nullable: true
+          description: URL of the planet this species originates from, or null.
+        language:
+          type: string
+        people:
+          type: array
+          items:
+            type: string
+            format: uri
+        films:
+          type: array
+          items:
+            type: string
+            format: uri
+        created:
+          type: string
+          format: date-time
+        edited:
+          type: string
+          format: date-time
+        url:
+          type: string
+          format: uri
+
+    Vehicle:
+      type: object
+      description: A single transport craft that does not have hyperdrive capability.
+      required:
+        - name
+        - model
+        - manufacturer
+        - cost_in_credits
+        - length
+        - max_atmosphering_speed
+        - crew
+        - passengers
+        - cargo_capacity
+        - consumables
+        - vehicle_class
+        - pilots
+        - films
+        - created
+        - edited
+        - url
+      properties:
+        name:
+          type: string
+        model:
+          type: string
+        manufacturer:
+          type: string
+        cost_in_credits:
+          type: string
+          description: Cost in Galactic Credits. May be "unknown".
+        length:
+          type: string
+          description: Length in metres.
+        max_atmosphering_speed:
+          type: string
+          description: Maximum atmosphering speed. May be "n/a".
+        crew:
+          type: string
+          description: Number of personnel needed to run or pilot this vehicle.
+        passengers:
+          type: string
+          description: Number of non-essential passengers this vehicle can transport.
+        cargo_capacity:
+          type: string
+          description: Maximum cargo capacity in kilograms.
+        consumables:
+          type: string
+          description: Maximum length of time this vehicle can provide consumables.
+        vehicle_class:
+          type: string
+          description: e.g. "wheeled", "repulsorcraft".
+        pilots:
+          type: array
+          items:
+            type: string
+            format: uri
+        films:
+          type: array
+          items:
+            type: string
+            format: uri
+        created:
+          type: string
+          format: date-time
+        edited:
+          type: string
+          format: date-time
+        url:
+          type: string
+          format: uri
+
+    Starship:
+      type: object
+      description: A single transport craft that has hyperdrive capability.
+      required:
+        - name
+        - model
+        - manufacturer
+        - cost_in_credits
+        - length
+        - max_atmosphering_speed
+        - crew
+        - passengers
+        - cargo_capacity
+        - consumables
+        - hyperdrive_rating
+        - MGLT
+        - starship_class
+        - pilots
+        - films
+        - created
+        - edited
+        - url
+      properties:
+        name:
+          type: string
+        model:
+          type: string
+        manufacturer:
+          type: string
+        cost_in_credits:
+          type: string
+          description: Cost in Galactic Credits. May be "unknown".
+        length:
+          type: string
+          description: Length in metres.
+        max_atmosphering_speed:
+          type: string
+          description: Maximum atmosphering speed. May be "n/a".
+        crew:
+          type: string
+          description: Number of personnel needed to run or pilot this starship.
+        passengers:
+          type: string
+          description: Number of non-essential passengers this starship can transport.
+        cargo_capacity:
+          type: string
+          description: Maximum cargo capacity in kilograms.
+        consumables:
+          type: string
+          description: Maximum length of time this starship can provide consumables.
+        hyperdrive_rating:
+          type: string
+          description: Class of this starship's hyperdrive.
+        MGLT:
+          type: string
+          description: Maximum number of Megalights this starship can travel per hour.
+        starship_class:
+          type: string
+          description: e.g. "Starfighter", "Deep Space Mobile Battlestation".
+        pilots:
+          type: array
+          items:
+            type: string
+            format: uri
+        films:
+          type: array
+          items:
+            type: string
+            format: uri
+        created:
+          type: string
+          format: date-time
+        edited:
+          type: string
+          format: date-time
+        url:
+          type: string
+          format: uri
