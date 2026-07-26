@@ -1,0 +1,80 @@
+### Entra ID (Microsoft Identity Platform) — OAuth2 Authorization Code flow
+### for the SAP MCP Gateway on Integration Suite.
+###
+### Run with the VS Code REST Client extension.
+### Replace the client secret and the authorization code with your own values.
+### Do NOT commit real secrets or codes — they are single-use / sensitive.
+
+@tenant = ee9157fe-19b9-4e21-85da-f093ed5df295
+@clientId = 74612d5d-0ebb-4105-9ba4-4d33a0e73ce9
+@clientSecret = <your client secret>
+@redirectUri = http://localhost:8080/callback
+@scope = api://74612d5d-0ebb-4105-9ba4-4d33a0e73ce9/sap.access offline_access
+
+### 1. Get the authorization code (open this URL in a browser)
+# Sign in, consent, and copy the ?code= value from the localhost callback URL.
+# GET (paste into a browser — this is not sent by REST Client):
+#
+# https://login.microsoftonline.com/{{tenant}}/oauth2/v2.0/authorize
+#   ?client_id={{clientId}}
+#   &response_type=code
+#   &redirect_uri={{redirectUri}}
+#   &scope=api://74612d5d-0ebb-4105-9ba4-4d33a0e73ce9/sap.access%20offline_access
+#   &response_mode=query
+
+### 2. Exchange the authorization code for an access_token
+# Paste the fresh code from the ?code= callback (single-use, ~10 min).
+# @name token
+POST https://login.microsoftonline.com/{{tenant}}/oauth2/v2.0/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=authorization_code
+&client_id={{clientId}}
+&client_secret={{clientSecret}}
+&redirect_uri={{redirectUri}}
+&scope={{scope}}
+&code=<paste the fresh ?code= value here>
+
+### 3. (Optional) Refresh the access_token using offline_access
+# @name refresh
+POST https://login.microsoftonline.com/{{tenant}}/oauth2/v2.0/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=refresh_token
+&client_id={{clientId}}
+&client_secret={{clientSecret}}
+&scope={{scope}}
+&refresh_token={{token.response.body.refresh_token}}
+
+### 4. Initialize the MCP session (using the Entra ID bearer token)
+@MCP-BTP-Server-URL = <your MCP Server URL>
+# @name init
+POST {{MCP-BTP-Server-URL}}
+Authorization: Bearer {{token.response.body.access_token}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-06-18",
+    "capabilities": {},
+    "clientInfo": { "name": "vscode-rest", "version": "1.0" }
+  }
+}
+
+### 5. List the exposed MCP tools
+# @name toolsList
+POST {{MCP-BTP-Server-URL}}
+Authorization: Bearer {{token.response.body.access_token}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+Mcp-Session-Id: {{init.response.headers.mcp-session-id}}
+
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "method": "tools/list"
+}
