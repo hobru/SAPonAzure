@@ -80,8 +80,8 @@ On the MCP server's **Policies**, change from the default client-certificate aut
 **Authentication step:**
 - **Well-known URL** (OpenID configuration): `https://login.microsoftonline.com/<tenant-id>/v2.0/.well-known/openid-configuration` (open it in a browser to confirm it resolves).
 - **Audience**: your **Application ID / client ID** (`api://<client-id>` / the client ID).
-- **Client ID key**: read from the incoming token — `$auth.jwt.appid`.
-- **User info key**: read from the incoming token — `$auth.jwt.upn`.
+- **Client ID key**: read from the incoming token — `${auth.oidc.jwt.appid}`.
+- **User info key**: read from the incoming token — `${auth.oidc.jwt.upn}n`.
 
 **Save and deploy.**
 
