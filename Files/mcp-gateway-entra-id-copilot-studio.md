@@ -54,8 +54,6 @@ Copilot Studio  ──▶  Custom connector (auto-created)  ──▶  MCP Gatew
 
 > The **redirect URL** is intentionally left for later — you don't have it yet. Copilot Studio will generate it in step 2.
 
-> Demo values used in the video: tenant `ee9157fe-19b9-4e21-85da-f093ed5df295`, client ID `74612d5d-0ebb-4105-9ba4-4d33a0e73ce9`, scope `api://74612d5d-0ebb-4105-9ba4-4d33a0e73ce9/sap.access offline_access`.
-
 ### 2. Add the MCP tool in Copilot Studio (with OAuth)
 1. In your agent, disable the tools from the previous video and **add a new tool → Model Context Protocol**. Give it a **name** (e.g. *"SWAPI MCP Gateway with Entra"*) and a **description**.
 2. **Server URL**: the URL of your **MCP server on Integration Suite** — this time we call the SAP MCP Gateway **directly** (no APIM proxy).
