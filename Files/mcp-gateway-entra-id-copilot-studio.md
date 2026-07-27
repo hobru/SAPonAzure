@@ -8,7 +8,7 @@ This is the follow-up to *"MCP Gateway on BTP Integration Suite"* ([guide](./mcp
 
 | | First video | This video |
 |---|---|---|
-| Auth to SAP | `client_credentials` (technical user) | **OAuth 2.0 authorization code** (real user) |
+| Auth to SAP MCP Gateway| `client_credentials` (technical user) | **OAuth 2.0 authorization code** (real user) |
 | Intermediary | **Azure API Management** proxy | **Auto-created custom connector** in Copilot Studio |
 | Front-end protection | API key (`X-API-key`) | **Entra ID OAuth** connection |
 | Identity in MCP Gateway | shared / anonymous | **user context** (UPN + scope), ready to propagate |
