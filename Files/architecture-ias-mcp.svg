@@ -35,7 +35,7 @@
   <text x="80" y="176" class="box-t">Copilot Studio</text>
   <text x="80" y="197" class="box-s">MCP connection (Generic OAuth2)</text>
   <text x="80" y="215" class="box-s">Custom connector + Content-Type fix</text>
-  <text x="80" y="236" class="mono">client_id = App-2 (d05940ac…)</text>
+  <text x="80" y="236" class="mono">client_id = App-2 (&lt;app2-client-id&gt;)</text>
   <text x="80" y="252" class="mono">scopes = openid offline_access</text>
 
   <!-- Entra ID -->
@@ -43,19 +43,19 @@
   <text x="80" y="324" class="box-t">Microsoft Entra ID</text>
   <text x="80" y="345" class="box-s">Corporate IdP that authenticates the user</text>
   <text x="80" y="366" class="mono">App-1 — IAS is the OIDC client</text>
-  <text x="80" y="386" class="mono">tenant = ee9157fe-…-f093ed5df295</text>
+  <text x="80" y="386" class="mono">tenant = &lt;entra-tenant-id&gt;</text>
   <text x="80" y="402" class="box-s">issues the sign-in assertion (not the API token)</text>
 
   <!-- ============ SAP IAS (center) ============ -->
   <rect x="455" y="150" width="320" height="300" rx="12" fill="#ecfeff" stroke="#0891b2" stroke-width="1.8"/>
   <text x="475" y="178" class="grp" fill="#0e7490">SAP Cloud Identity Services — IAS</text>
-  <text x="475" y="198" class="mono">a9buklbuq.trial-accounts.ondemand.com</text>
+  <text x="475" y="198" class="mono">&lt;ias-host&gt;.trial-accounts.ondemand.com</text>
 
   <!-- App-2 -->
   <rect x="477" y="214" width="276" height="104" rx="10" fill="#ffffff" stroke="#0891b2" stroke-width="1.6"/>
   <text x="495" y="240" class="box-t">App-2 — application for Copilot Studio</text>
   <text x="495" y="261" class="box-s">OAuth client + gateway audience</text>
-  <text x="495" y="281" class="mono">Client ID = d05940ac-…-164cf8df41b2</text>
+  <text x="495" y="281" class="mono">Client ID = &lt;app2-client-id&gt;</text>
   <text x="495" y="298" class="mono">Redirect = …azure-apim.net/redirect/…</text>
   <text x="495" y="313" class="box-s">Default IdP = Entra (Conditional Auth)</text>
 
@@ -70,7 +70,7 @@
   <!-- ============ SAP BTP (right) ============ -->
   <rect x="855" y="100" width="345" height="360" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
   <text x="875" y="128" class="grp" fill="#15803d">SAP BTP — trial subaccount</text>
-  <text x="875" y="147" class="mono">6226cae1trial · region ap21</text>
+  <text x="875" y="147" class="mono">&lt;subaccount&gt; · region &lt;region&gt;</text>
 
   <!-- Trust config -->
   <rect x="877" y="162" width="301" height="86" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="1.6"/>
