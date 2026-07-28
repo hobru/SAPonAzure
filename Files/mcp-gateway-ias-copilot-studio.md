@@ -29,6 +29,8 @@ Establishing IAS as the front door **freezes the login chain**. Once Copilot Stu
 
 ## Architecture
 
+![Phase 1 architecture: Copilot Studio → IAS (federated to Entra ID) → MCP Gateway → SWAPI, with Phase 2 adding principal propagation to an on-prem ABAP backend](./architecture-ias-mcp.svg)
+
 ```
 User
  → Copilot Studio (auto-created custom connector, generic OAuth2 → IAS)
@@ -55,7 +57,7 @@ You create **two separate registrations**. They are NOT the same thing — mixin
 | Where | Entra ID (Azure portal) | IAS Admin console |
 | Purpose | Lets **IAS** log users in **via Entra** | The client **Copilot Studio** uses; the **`aud`** the gateway validates |
 | Who is the client? | **IAS** is the client, **Entra** is the IdP | **Copilot Studio** is the client, **IAS** is the IdP |
-| Redirect URI | The **IAS corporate-IdP callback** (IAS shows it) | `https://global.consent.azure-apihub.net/redirect` (Copilot Studio) + a temporary `http://localhost:8080/callback` for testing |
+| Redirect URI | The **IAS corporate-IdP callback** (IAS shows it) | Copilot Studio's `https://global.consent.azure-apim.net/redirect/<generated-path>` (added in Step 5) + a temporary `http://localhost:8080/callback` for testing |
 | Secret? | Yes (used inside the IAS corporate-IdP config) | Yes (used by Copilot Studio OAuth) |
 | Key claim it must emit | `email` | (IAS mints this token) `iss` = IAS, `aud` = App-2 client ID, `mail` = corporate email |
 
