@@ -249,31 +249,7 @@ Copilot Studio sends `Content-Type: application/json; charset=utf-8`, but the SA
 
 ## Next steps — on-prem principal propagation (Phase 2)
 
-> 📺 **Phase 2 will be covered in the next video, publishing soon.** The outline below previews what that video walks through end-to-end.
-
-The gateway now holds a **validated IAS token** carrying the user's `mail`. The natural extension is to run the actual backend call **as the real ABAP user on-prem** — and because the token is already IAS-issued, this is **additive**: you don't touch Entra, IAS, the gateway auth policy, or Copilot Studio.
-
-You do **not** manually exchange the token. The **Connectivity Proxy + Cloud Connector** convert the identity into a short-lived X.509 client certificate; ABAP maps the certificate to a user.
-
-```
-IAS JWT (mail = user email)
-  │  gateway destination presents it to the Connectivity Proxy via two headers:
-  │     SAP-Connectivity-Authentication: <IAS user token>
-  │     Proxy-Authorization:             <connectivity proxy token>
-  ▼
-Connectivity Proxy + Cloud Connector — validates the IAS token, mints a SHORT-LIVED X.509 (CN = mail)
-  ▼
-On-prem ABAP  →  CERTRULE: SUBJECT CN = <email> → SU01 user  →  request runs as the real user
-```
-
-Outline of the additive work:
-- **Subaccount trust to IAS** — the subaccount that will issue/consume the token must trust the same IAS tenant.
-- **Cloud Connector 2.13+** — connected to that subaccount, with the on-prem backend mapped as an accessible resource (note the **Location ID**).
-- **Principal propagation config** — Cloud Connector CA cert with subject pattern `CN = ${mail}`; ABAP **STRUST** (trust the CC CA) + **CERTRULE** (`SUBJECT CN = <email>` → SU01 user) + **SU01** email == IAS `mail` == Entra `email`.
-- **BTP Destination** — `Authentication = PrincipalPropagation`, `ProxyType = OnPremise`, `CloudConnectorLocationId = <Location ID>`, URL = backend host:port.
-- **The bridge to prove first** — confirm your specific gateway artifact **forwards the inbound IAS token** into the `PrincipalPropagation` destination call (so the Connectivity Proxy receives `SAP-Connectivity-Authentication`). This is the one artifact-specific link to validate before committing to Phase 2.
-
-> **Reference:** *Configure Principal Propagation via IAS Token* — SAP BTP Connectivity documentation (`help.sap.com/docs/connectivity/sap-btp-connectivity-cf/configure-principal-propagation-via-ias-token`). This is a documented standard feature, not a workaround.
+> 📺 **This will be part of the next video, publishing soon.** Phase 2 additively extends this setup so the *same* IAS token runs the actual backend call as the real ABAP user on-prem (via the Connectivity Proxy + Cloud Connector → short-lived X.509 → `CERTRULE` → SU01 user) — without touching Entra, IAS, the gateway auth policy, or Copilot Studio.
 
 ---
 
