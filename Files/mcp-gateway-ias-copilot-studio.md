@@ -12,7 +12,7 @@ This is the follow-up to *"MCP Gateway — user authentication with Microsoft En
 | Corporate login | Entra ID directly | **Entra ID federated into IAS** (IAS brokers to Microsoft) |
 | Gateway policy | External auth, audience = Entra app, scope `sap.access` | External auth, audience = IAS OAuth client **+ issuer** (IAS has **no custom scopes**) |
 | Identity in the gateway | Entra user (UPN + scope) | **IAS user** (`mail`), ready for **principal propagation** |
-| What comes next | token exchange (conceptual) | **on-prem ABAP principal propagation** via Cloud Connector (Phase 2) |
+| What comes next | token exchange (conceptual) | **on-prem ABAP principal propagation** via Cloud Connector (Phase 2 — covered in the next video, publishing soon) |
 
 > The MCP Gateway is one of two architectures explicitly **endorsed by SAP** in the [SAP API Policy](https://help.sap.com/doc/sap-api-policy/latest/en-US/API_Policy_latest.pdf). Putting IAS in front is also SAP's **strategic direction** (IAS + AMS, replacing XSUAA) — so validating a raw IAS token is the future-proof pattern, not a workaround.
 
@@ -23,7 +23,7 @@ This is the follow-up to *"MCP Gateway — user authentication with Microsoft En
 Establishing IAS as the front door **freezes the login chain**. Once Copilot Studio, IAS, Entra federation, and the gateway policy are wired to an **IAS-issued** token, the natural extension — propagating that same token to an on-prem ABAP backend — becomes **purely additive**: no rework of Entra, IAS, gateway, or Copilot Studio config.
 
 - **Phase 1 (this guide)** — the *front door*: Copilot Studio → IAS (OIDC) → Entra (corporate login) → back to IAS → **IAS JWT** → gateway validates. Backend (SWAPI) is still called anonymously.
-- **Phase 2 (additive next step)** — the *same* IAS token drives execution as the real ABAP user on-prem, via the Connectivity Proxy + Cloud Connector (identity → short-lived X.509 → `CERTRULE` → SU01 user). See [Next steps](#next-steps--on-prem-principal-propagation-phase-2).
+- **Phase 2 (additive next step — covered in the next video, publishing soon)** — the *same* IAS token drives execution as the real ABAP user on-prem, via the Connectivity Proxy + Cloud Connector (identity → short-lived X.509 → `CERTRULE` → SU01 user). See [Next steps](#next-steps--on-prem-principal-propagation-phase-2).
 
 ---
 
@@ -248,6 +248,8 @@ Copilot Studio sends `Content-Type: application/json; charset=utf-8`, but the SA
 ---
 
 ## Next steps — on-prem principal propagation (Phase 2)
+
+> 📺 **Phase 2 will be covered in the next video, publishing soon.** The outline below previews what that video walks through end-to-end.
 
 The gateway now holds a **validated IAS token** carrying the user's `mail`. The natural extension is to run the actual backend call **as the real ABAP user on-prem** — and because the token is already IAS-issued, this is **additive**: you don't touch Entra, IAS, the gateway auth policy, or Copilot Studio.
 
