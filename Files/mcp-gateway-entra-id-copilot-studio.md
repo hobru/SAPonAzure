@@ -115,6 +115,8 @@ To see exactly what Copilot Studio does behind the scenes, reproduce the flow wi
 
 The MCP Gateway now holds a **validated user token**: the user, the authentication, and the `sap.access` scope. The natural next step is to **forward this token** to the backend system — or perform a **token exchange** — so you get a full **end-to-end principal propagation** flow into a real SAP backend (in this demo the SWAPI backend is still called anonymously).
 
+> **Follow-up guide:** [*MCP Gateway with SAP IAS (federated to Entra ID)*](./mcp-gateway-ias-copilot-studio.md) puts **SAP Cloud Identity Services (IAS)** in front as the token issuer, with Entra ID federated into IAS. Because the gateway then validates an **IAS-issued** token, it sets up **principal propagation to an on-prem ABAP backend** as a purely additive next step.
+
 ---
 
 ## VS Code — Entra ID OAuth + MCP calls

@@ -1,0 +1,18 @@
+### Verify 1 — discovery endpoints & issuer sanity (VS Code REST Client)
+### Run after Step 1. Confirms IAS + Entra endpoints resolve and issuers are correct.
+### Fill in the two placeholders below (no secrets needed for this file).
+
+@iasHost     = <ias-host>            # e.g. xxxxxxxxx.accounts.ondemand.com
+@entraTenant = <entra-tenant-id>
+
+### 1. IAS discovery — expect issuer = https://<ias-host>
+GET https://{{iasHost}}/.well-known/openid-configuration
+Accept: application/json
+
+### 2. IAS JWKS — expect a "keys" array (gateway uses these to validate tokens)
+GET https://{{iasHost}}/oauth2/certs
+Accept: application/json
+
+### 3. Entra discovery — expect issuer = https://login.microsoftonline.com/<tenant>/v2.0
+GET https://login.microsoftonline.com/{{entraTenant}}/v2.0/.well-known/openid-configuration
+Accept: application/json

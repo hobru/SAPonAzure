@@ -1,0 +1,51 @@
+### Verify 2 — full auth-code flow through IAS (VS Code REST Client)
+### Proves Step 1 (Entra -> IAS federation) AND Step 2 (App-2 audience).
+### App-2 is a CONFIDENTIAL client (has a secret, no PKCE).
+###
+### Fill in the placeholders. NEVER commit the real client secret or an authorization code.
+
+@iasHost      = <ias-host>            # e.g. xxxxxxxxx.accounts.ondemand.com
+@clientId     = <app2-oauth-client-id>
+@clientSecret = <app2-client-secret>  # store locally, do NOT commit
+@redirectUri  = http://localhost:8080/callback
+@scope        = openid
+@authCode     = <paste-the-fresh-code-here>
+@gateway      = https://<your-integration-suite-host>/swapi
+
+### -------------------------------------------------------------------
+### STEP A (manual): open this URL in a browser.
+### You should be redirected to the MICROSOFT login page (= federation works).
+### After login the browser lands on http://localhost:8080/callback?code=...
+### The page won't load - that's expected. Copy the value after ?code= into @authCode above.
+###
+### https://<ias-host>/oauth2/authorize?response_type=code&client_id=<app2-oauth-client-id>&redirect_uri=http://localhost:8080/callback&scope=openid
+###
+### IAS supports ONLY these scopes: openid, email, profile, offline_access, groups. No custom scopes.
+### For a groups claim later (gateway authorization), use scope=openid%20groups.
+### -------------------------------------------------------------------
+
+### STEP B: exchange the authorization code for tokens
+# @name token
+POST https://{{iasHost}}/oauth2/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=authorization_code&code={{authCode}}&redirect_uri={{redirectUri}}&client_id={{clientId}}&client_secret={{clientSecret}}
+
+### STEP C (optional): call the SWAPI MCP gateway with the IAS token (MCP initialize)
+### Expect this to SUCCEED only after Step 3 (gateway External OIDC -> IAS) is deployed.
+### Paste the access_token from Step B in place of <ias-access-token>.
+POST {{gateway}}
+Authorization: Bearer <ias-access-token>
+Accept: application/json, text/event-stream
+Content-Type: application/json
+
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2024-11-05",
+    "capabilities": {},
+    "clientInfo": { "name": "resttest", "version": "1.0" }
+  }
+}
