@@ -4,7 +4,8 @@
 ###
 ### Fill in the placeholders. NEVER commit the real client secret or an authorization code.
 
-@iasHost      = <ias-host>            # e.g. xxxxxxxxx.accounts.ondemand.com
+# iasHost: e.g. xxxxxxxxx.accounts.ondemand.com
+@iasHost      = <ias-host>            
 @clientId     = <app2-oauth-client-id>
 @clientSecret = <app2-client-secret>  # store locally, do NOT commit
 @redirectUri  = http://localhost:8080/callback
