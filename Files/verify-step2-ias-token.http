@@ -36,7 +36,7 @@ grant_type=authorization_code&code={{authCode}}&redirect_uri={{redirectUri}}&cli
 ### Expect this to SUCCEED only after Step 3 (gateway External OIDC -> IAS) is deployed.
 ### Paste the access_token from Step B in place of <ias-access-token>.
 POST {{gateway}}
-Authorization: Bearer <ias-access-token>
+Authorization: Bearer {{token.response.body.access_token}}
 Accept: application/json, text/event-stream
 Content-Type: application/json
 
