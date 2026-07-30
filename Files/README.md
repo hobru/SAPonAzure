@@ -8,7 +8,7 @@ Each part builds on the previous one. The MCP server stays the same throughout (
 |---|---|---|---|---|
 | 1 | [MCP Gateway on SAP Integration Suite](./mcp-gateway-integration-suite-copilot-studio.md) | Build the MCP server; connect via **Azure API Management** using `client_credentials` | Shared technical account | [▶️ watch](https://youtu.be/1m12OVONavA) |
 | 2 | [User authentication with Microsoft Entra ID](./mcp-gateway-entra-id-copilot-studio.md) | **OAuth 2.0 authorization code** with Entra ID; connect **directly** to the gateway | Real user — **Entra ID** | [▶️ watch](https://www.youtube.com/watch?v=jE-qlg2vZ6I) |
-| 3 | [User authentication with SAP IAS (federated to Entra ID)](./mcp-gateway-ias-copilot-studio.md) | **SAP IAS** issues the token (Entra federated into IAS); the foundation for **on-prem principal propagation** | Real user — **SAP IAS** (SAP-native) | _coming soon_ |
+| 3 | [User authentication with SAP IAS (federated to Entra ID)](./mcp-gateway-ias-copilot-studio.md) | **SAP IAS** issues the token (Entra federated into IAS); the foundation for **on-prem principal propagation** | Real user — **SAP IAS** (SAP-native) | [▶️ watch](https://youtu.be/7Y4TH2DWIoo) |
 
 ## Where to start
 
