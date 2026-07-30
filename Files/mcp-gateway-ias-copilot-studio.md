@@ -57,7 +57,7 @@ You create **two separate registrations**. They are NOT the same thing — mixin
 | Where | Entra ID (Azure portal) | IAS Admin console |
 | Purpose | Lets **IAS** log users in **via Entra** | The client **Copilot Studio** uses; the **`aud`** the gateway validates |
 | Who is the client? | **IAS** is the client, **Entra** is the IdP | **Copilot Studio** is the client, **IAS** is the IdP |
-| Redirect URI | The **IAS corporate-IdP callback** (IAS shows it) | Copilot Studio's `https://global.consent.azure-apim.net/redirect/<generated-path>` (added in Step 5) + a temporary `http://localhost:8080/callback` for testing |
+| Redirect URI | The **IAS corporate-IdP callback** (IAS shows it) | Copilot Studio's `https://global.consent.azure-apim.net/redirect/generated-path` (added in Step 5) + a temporary `http://localhost:8080/callback` for testing |
 | Secret? | Yes (used inside the IAS corporate-IdP config) | Yes (used by Copilot Studio OAuth) |
 | Key claim it must emit | `email` | (IAS mints this token) `iss` = IAS, `aud` = App-2 client ID, `mail` = corporate email |
 
@@ -144,7 +144,7 @@ Back in the IAS Corporate IdP → **OpenID Connect Configuration**:
 IAS Admin → **Applications & Resources → Applications → Create**.
 - Display name: e.g. `Copilot Studio MCP`, Type: **OpenID Connect**.
 - **Single Sign-On → OpenID Connect Configuration** ("Configure Manually"):
-  - **Redirect URIs**: `http://localhost:8080/callback` (temporary — for the Verify 2 manual test; remove afterward). You add the **Copilot Studio** redirect (`https://global.consent.azure-apim.net/redirect/<generated-path>` — **`apim.net`, not `apihub.net`**; connection-specific) in **Step 5**, once Copilot Studio generates it on **Create**.
+  - **Redirect URIs**: `http://localhost:8080/callback` (temporary — for the Verify 2 manual test; remove afterward). You add the **Copilot Studio** redirect (`https://global.consent.azure-apim.net/redirect/generated-path` — **`apim.net`, not `apihub.net`**; connection-specific) in **Step 5**, once Copilot Studio generates it on **Create**.
   - **Grant Types**: at minimum **Authorization Code** + **Refresh Token**.
   - **Enforce PKCE (S256): OFF** (Power Platform's generic OAuth2 does not send PKCE).
 - **Subject Name Identifier / Attributes**: ensure **email** is sent (needed as the `mail`/`email` claim and for Phase 2 CN mapping).
@@ -230,7 +230,7 @@ IAS has no custom scopes, so you authorize on claims IAS *does* emit — **not**
    - **Token URL**: `https://<ias-host>/oauth2/token`
    - **Refresh URL**: `https://<ias-host>/oauth2/token` — **same as the Token URL**. IAS has no separate refresh endpoint; refresh uses `grant_type=refresh_token` against `/oauth2/token`.
    - **Scope**: `openid offline_access` — **`offline_access` is required**, or IAS returns no refresh token and silent refresh fails (the *"Refresh Token missing"* warning). Add `groups` only if you configured Step 4 Option B (Entra-sourced groups).
-4. Click **Create**. Copilot Studio generates a **redirect URL** (`https://global.consent.azure-apim.net/redirect/<generated-path>` — `apim.net`, connection-specific). **Copy it** and register it in **IAS App-2 → Single Sign-On → OpenID Connect Configuration → Redirect URIs**. **Do not touch Entra** — Copilot Studio calls IAS directly, so only IAS needs to trust this redirect (Entra already trusts IAS's callback from Step 1). After any connector/connection edit, **recreate the connection and wait ~1–2 min** (Power Platform caches metadata).
+4. Click **Create**. Copilot Studio generates a **redirect URL** (`https://global.consent.azure-apim.net/redirect/generated-path` — `apim.net`, connection-specific). **Copy it** and register it in **IAS App-2 → Single Sign-On → OpenID Connect Configuration → Redirect URIs**. **Do not touch Entra** — Copilot Studio calls IAS directly, so only IAS needs to trust this redirect (Entra already trusts IAS's callback from Step 1). After any connector/connection edit, **recreate the connection and wait ~1–2 min** (Power Platform caches metadata).
 
 ### 6. Fix the Content-Type in the auto-created custom connector
 
