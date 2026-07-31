@@ -1,5 +1,7 @@
 # MCP Gateway on SAP Integration Suite — user authentication with SAP Cloud Identity Services (IAS), federated to Microsoft Entra ID
 
+> 📦 **This guide has moved.** The series now lives in **[hobru/sap-mcp-gateway-copilot-studio](https://github.com/hobru/sap-mcp-gateway-copilot-studio)** → **[guides/03-sap-ias.md](https://github.com/hobru/sap-mcp-gateway-copilot-studio/blob/main/guides/03-sap-ias.md)**. This copy is kept so existing links keep working; please use the new repo for the latest version.
+
 Connect **Microsoft Copilot Studio** to the SAP **MCP Gateway** on Integration Suite where **SAP Cloud Identity Services – Identity Authentication (IAS)** is the identity provider the gateway trusts, and **Microsoft Entra ID is federated into IAS** for the corporate login. Each end user calls the MCP Gateway with their **own identity** (single sign-on through their Microsoft account), and the token the gateway validates is **IAS-issued** — the exact token shape SAP consumes for **principal propagation** into a real backend.
 
 📺 **Watch the video:** [https://youtu.be/7Y4TH2DWIoo](https://youtu.be/7Y4TH2DWIoo)
