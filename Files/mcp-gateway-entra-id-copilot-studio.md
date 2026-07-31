@@ -1,5 +1,7 @@
 # MCP Gateway on SAP Integration Suite — user authentication with Microsoft Entra ID
 
+> 📦 **This guide has moved.** The series now lives in **[hobru/sap-mcp-gateway-copilot-studio](https://github.com/hobru/sap-mcp-gateway-copilot-studio)** → **[guides/02-entra-id.md](https://github.com/hobru/sap-mcp-gateway-copilot-studio/blob/main/guides/02-entra-id.md)**. This copy is kept so existing links keep working; please use the new repo for the latest version.
+
 Connect **Microsoft Copilot Studio** to the SAP **MCP Gateway** on Integration Suite with **user-based authentication** via **Microsoft Entra ID** — so each end user calls the MCP Gateway with their **own identity** (single sign-on) instead of a shared technical account or API key.
 
 📺 **Watch the video:** [https://www.youtube.com/watch?v=jE-qlg2vZ6I](https://www.youtube.com/watch?v=jE-qlg2vZ6I)

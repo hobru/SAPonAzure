@@ -1,5 +1,7 @@
 # MCP Gateway on SAP Integration Suite
 
+> 📦 **This guide has moved.** The series now lives in **[hobru/sap-mcp-gateway-copilot-studio](https://github.com/hobru/sap-mcp-gateway-copilot-studio)** → **[guides/01-integration-suite.md](https://github.com/hobru/sap-mcp-gateway-copilot-studio/blob/main/guides/01-integration-suite.md)**. This copy is kept so existing links keep working; please use the new repo for the latest version.
+
 Connect **Microsoft Copilot Studio** to SAP in a fully endorsed and compliant way using the new **MCP Gateway** in SAP Integration Suite.
 
 📺 **Watch the video:** <https://youtu.be/1m12OVONavA>
